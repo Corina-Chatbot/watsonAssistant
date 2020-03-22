@@ -4,10 +4,7 @@
       "intent": "chatbotkommunikation_kommunikation_bot_ort",
       "examples": [
         {
-          "text": "Wo sind wir?"
-        },
-        {
-          "text": "Wo sollte ich sein?"
+          "text": "Wo bist du?"
         },
         {
           "text": "Wo finde ich dich?"
@@ -16,7 +13,10 @@
           "text": "Wo soll ich mich aufhalten?"
         },
         {
-          "text": "Wo bist du?"
+          "text": "Wo sollte ich sein?"
+        },
+        {
+          "text": "Wo sind wir?"
         }
       ]
     },
@@ -24,7 +24,13 @@
       "intent": "informationen_infrastruktur_einkauf_allgemein",
       "examples": [
         {
+          "text": "Ich will mir Klamotten kaufen."
+        },
+        {
           "text": "Wie lang haben die Supermärkte noch auf?"
+        },
+        {
+          "text": "Supermärkte schließen"
         },
         {
           "text": "Welche Läden haben noch offen?"
@@ -39,64 +45,49 @@
           "text": "Ich brauche Lebensmittel."
         },
         {
+          "text": "Supermärkte Öffnungszeiten"
+        },
+        {
+          "text": "Wie viel Lebensmittel brauche ich pro Person?"
+        },
+        {
+          "text": "Wie viel trinken brauche ich?"
+        },
+        {
+          "text": "Wie viel Nudeln brauche ich?"
+        },
+        {
+          "text": "Wie viel Reis brauche ich?"
+        },
+        {
+          "text": "Wie viel Liter Wasser brauche ich?"
+        },
+        {
+          "text": "Wie viel Milchprodukte sollte ich einkaufen?"
+        },
+        {
+          "text": "Wie viel Lebensmittel für Quarantäne"
+        },
+        {
+          "text": "Drohen Versorgungsengpässe?"
+        },
+        {
+          "text": "Gehen die Lebensmittel aus?"
+        },
+        {
+          "text": "Gibt es noch genügen Lebensmittel?"
+        },
+        {
           "text": "Welche Vorräte sollte ich haben?"
         },
         {
           "text": "Wie lang sind noch Lebensmittel verfügbar?"
-        },
-        {
-          "text": "Kann ich sonntags einkaufen gehen?"
-        },
-        {
-          "text": "Supermärkte Öffnungszeiten"
-        },
-        {
-          "text": "Supermärkte schließen"
-        },
-        {
-          "text": "Ich will mir Klamotten kaufen."
         }
       ]
     },
     {
       "intent": "informationen_arbeit_krankschreibung_allgemein",
       "examples": [
-        {
-          "text": "Wie erhalte ich eine Krankschreibung?"
-        },
-        {
-          "text": "Wie bekomme ich eine Krankschreibung, wenn ich das Haus nicht verlassen darf?"
-        },
-        {
-          "text": "Gibt es dafuer einen Krankenschein?"
-        },
-        {
-          "text": "Woher bekomme ich einen Attest?"
-        },
-        {
-          "text": "Wann wird mir Arbeitsunfaehigkeit bescheinigt?"
-        },
-        {
-          "text": "Muss ich beim Gesundheitsamt die Kollegen in der Firma nennen?"
-        },
-        {
-          "text": "Krankenschein, gibt es das dafuer?"
-        },
-        {
-          "text": "Kann ich mich krank schreiben lassen?"
-        },
-        {
-          "text": "Soll ich mich krankschreiben lassen?"
-        },
-        {
-          "text": "Brauche ich einen Attest?"
-        },
-        {
-          "text": "Ich habe eine Frage zur Krankschreibung"
-        },
-        {
-          "text": "Krankschreibung"
-        },
         {
           "text": "AU Bescheinigung?"
         },
@@ -114,6 +105,42 @@
         },
         {
           "text": "Wie sage ich es meinem Arbeitgeber?"
+        },
+        {
+          "text": "Wie erhalte ich eine Krankschreibung?"
+        },
+        {
+          "text": "Wie bekomme ich eine Krankschreibung, wenn ich das Haus nicht verlassen darf?"
+        },
+        {
+          "text": "Brauche ich einen Attest?"
+        },
+        {
+          "text": "Soll ich mich krankschreiben lassen?"
+        },
+        {
+          "text": "Muss ich beim Gesundheitsamt die Kollegen in der Firma nennen?"
+        },
+        {
+          "text": "Wann wird mir Arbeitsunfaehigkeit bescheinigt?"
+        },
+        {
+          "text": "Woher bekomme ich einen Attest?"
+        },
+        {
+          "text": "Kann ich mich krank schreiben lassen?"
+        },
+        {
+          "text": "Krankschreibung"
+        },
+        {
+          "text": "Ich habe eine Frage zur Krankschreibung"
+        },
+        {
+          "text": "Gibt es dafuer einen Krankenschein?"
+        },
+        {
+          "text": "Krankenschein, gibt es das dafuer?"
         }
       ]
     },
@@ -122,6 +149,15 @@
       "examples": [
         {
           "text": "Welche Verhaltensregeln gibt es für bestätigte Fälle?"
+        },
+        {
+          "text": "Was mache ich bei Krankheitsfall?"
+        },
+        {
+          "text": "Ich bin positiv getestet"
+        },
+        {
+          "text": "Bei mir wurde Corona festgestellt, was jetzt?"
         },
         {
           "text": "Ich habe das Virus"
@@ -133,19 +169,10 @@
           "text": "Ich habe Corona. Was nun?"
         },
         {
-          "text": "Wie verhalte ich mich als akuter Patient?"
-        },
-        {
-          "text": "Was mache ich bei Krankheitsfall?"
-        },
-        {
-          "text": "Bei mir wurde Corona festgestellt, was jetzt?"
-        },
-        {
-          "text": "Ich bin positiv getestet"
-        },
-        {
           "text": "Ich bin krank"
+        },
+        {
+          "text": "Wie verhalte ich mich als akuter Patient?"
         },
         {
           "text": "Ich hab Corona"
@@ -156,25 +183,7 @@
       "intent": "chatbotkommunikation_kommunikation_bot_begruessung",
       "examples": [
         {
-          "text": "Morgen"
-        },
-        {
           "text": "Hi"
-        },
-        {
-          "text": "Heyho"
-        },
-        {
-          "text": "Huhu"
-        },
-        {
-          "text": "Guten Mittag"
-        },
-        {
-          "text": "Hello"
-        },
-        {
-          "text": "Moinsen"
         },
         {
           "text": "Hallo"
@@ -196,12 +205,33 @@
         },
         {
           "text": "Guten Abend"
+        },
+        {
+          "text": "Morgen"
+        },
+        {
+          "text": "Heyho"
+        },
+        {
+          "text": "Huhu"
+        },
+        {
+          "text": "Guten Mittag"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Moinsen"
         }
       ]
     },
     {
       "intent": "informationen_virus_info_kleinkinder",
       "examples": [
+        {
+          "text": "Was ist mit meinem Neugeborenen?"
+        },
         {
           "text": "Muss ich etwas beachten, wenn ich schwanger bin?"
         },
@@ -222,9 +252,6 @@
         },
         {
           "text": "Ist Corona gefährlich, wenn man schwanger ist?"
-        },
-        {
-          "text": "Was ist mit meinem Neugeborenen?"
         }
       ],
       "description": "Corona und Ungeborene,Babies"
@@ -246,36 +273,24 @@
         },
         {
           "text": "Reicht Seife beim Händewaschen?"
+        },
+        {
+          "text": "Happy Birthday"
+        },
+        {
+          "text": "Händewaschen"
+        },
+        {
+          "text": "Hände waschen"
+        },
+        {
+          "text": "Wie muss ich meine Hände waschen?"
         }
       ]
     },
     {
       "intent": "informationen_virus_praevention_medikament",
       "examples": [
-        {
-          "text": "Welche Medikamente kann ich bei einer Corona Infektion einnehmen?"
-        },
-        {
-          "text": "Wann wird es ein Medikament gegen Corona geben?"
-        },
-        {
-          "text": "Gibt es bereits ein Medikament gegen Corona?"
-        },
-        {
-          "text": "Existiert ein Pharmazeutikum?"
-        },
-        {
-          "text": "Medizin bei Corona"
-        },
-        {
-          "text": "Kann ich mir in der Apotheke etwas kaufen?"
-        },
-        {
-          "text": "Arzneimittel Corona"
-        },
-        {
-          "text": "Gibt es ein Heilmittel?"
-        },
         {
           "text": "Gibt es Medikamente, um mich praeventiv zu schützen?"
         },
@@ -290,6 +305,30 @@
         },
         {
           "text": "Hilft ein Malaria Medikament gegen Corona?"
+        },
+        {
+          "text": "Welche Medikamente kann ich bei einer Corona Infektion einnehmen?"
+        },
+        {
+          "text": "Wann wird es ein Medikament gegen Corona geben?"
+        },
+        {
+          "text": "Gibt es bereits ein Medikament gegen Corona?"
+        },
+        {
+          "text": "Existiert ein Pharmazeutikum?"
+        },
+        {
+          "text": "Gibt es ein Heilmittel?"
+        },
+        {
+          "text": "Arzneimittel Corona"
+        },
+        {
+          "text": "Kann ich mir in der Apotheke etwas kaufen?"
+        },
+        {
+          "text": "Medizin bei Corona"
         }
       ]
     },
@@ -318,13 +357,46 @@
       "intent": "informationen_virus_info_tier",
       "examples": [
         {
+          "text": "Können Tier das Virus übertragen?"
+        },
+        {
+          "text": "Ist der Virus für mein Tier ansteckend?"
+        },
+        {
+          "text": "Ist der Virus für mein Haustier ansteckend?"
+        },
+        {
+          "text": "Kann ich meinem Haustier den Virus übertragen?"
+        },
+        {
+          "text": "Darf ich meinen Hund streicheln?"
+        },
+        {
+          "text": "Darf ich mit meiner Katze spielen?"
+        },
+        {
+          "text": "Können Tiere das Virus übertragen?"
+        },
+        {
+          "text": "Sind Tiere durch Corona gefährdet?"
+        },
+        {
+          "text": "Können sich Haustiere wie Hund oder Katze mit Corona infizieren?"
+        },
+        {
           "text": "Hund in Hongkong positiv getestet"
         },
         {
-          "text": "Mein Hund hat Corona"
+          "text": "Trennung von Haustier"
         },
         {
-          "text": "Trennung von Haustier"
+          "text": "Kann meine Katze Corona bekommen?"
+        },
+        {
+          "text": "Mein Tier hat Corona"
+        },
+        {
+          "text": "Mein Hund hat Corona"
         },
         {
           "text": "Meine Katze hat Corona"
@@ -334,39 +406,6 @@
         },
         {
           "text": "Kann mein Haustier Corona bekommen?"
-        },
-        {
-          "text": "Können sich Haustiere wie Hund oder Katze mit Corona infizieren?"
-        },
-        {
-          "text": "Sind Tiere durch Corona gefährdet?"
-        },
-        {
-          "text": "Können Tiere das Virus übertragen?"
-        },
-        {
-          "text": "Darf ich mit meiner Katze spielen?"
-        },
-        {
-          "text": "Können Tier das Virus übertragen?"
-        },
-        {
-          "text": "Darf ich meinen Hund streicheln?"
-        },
-        {
-          "text": "Ist der Virus für mein Tier ansteckend?"
-        },
-        {
-          "text": "Kann ich meinem Haustier den Virus übertragen?"
-        },
-        {
-          "text": "Ist der Virus für mein Haustier ansteckend?"
-        },
-        {
-          "text": "Kann meine Katze Corona bekommen?"
-        },
-        {
-          "text": "Mein Tier hat Corona"
         }
       ],
       "description": "Zusammenhang von Virus und Tieren"
@@ -375,40 +414,85 @@
       "intent": "informationen_statistik_info_update",
       "examples": [
         {
+          "text": "Gib mir die neuesten Zahlen zu Corona"
+        },
+        {
+          "text": "Wie viele Fälle gibt es in"
+        },
+        {
           "text": "Wieviele Erkrankungen gibt es weltweit?"
         },
         {
-          "text": "Wie hoch ist das Risiko in Deutschland",
+          "text": "Wieviele Leute sind infiziert?"
+        },
+        {
+          "text": "Wieviele Leute sind an Corona gestorben?"
+        },
+        {
+          "text": "Wiehoch ist das Risiko zu sterben?"
+        },
+        {
+          "text": "Wieviele Neuerkrankungen gab es heute?"
+        },
+        {
+          "text": "Wieviele Todesfälle gab es heute?"
+        },
+        {
+          "text": "Wieviele Leute sind genesen?"
+        },
+        {
+          "text": "Was ist das mittlere Erkrankungsalter?"
+        },
+        {
+          "text": "Wieviel Prozent werden beatmet?"
+        },
+        {
+          "text": "Wie hoch ist die Sterberate?"
+        },
+        {
+          "text": "Wieviele schwere Verläufe gibt es?"
+        },
+        {
+          "text": "Wieviele Erkrankte müssen ins Krankenhaus?"
+        },
+        {
+          "text": "Wird die Kurve schon flacher?"
+        },
+        {
+          "text": "Wie lange wird Corona dauern?"
+        },
+        {
+          "text": "Was wird mit 'Flatten The Curve' gemeint?"
+        },
+        {
+          "text": "Ich möchte Informationen zu meiner Stadt."
+        },
+        {
+          "text": "Was ist in München los?"
+        },
+        {
+          "text": "Wie hoch ist das Risiko in Regensburg?",
           "mentions": [
             {
-              "entity": "Land",
+              "entity": "Bundesland",
               "location": [
                 27,
-                38
+                37
               ]
             }
           ]
         },
         {
-          "text": "Ist das Risiko in Deutschland hoch?",
-          "mentions": [
-            {
-              "entity": "Land",
-              "location": [
-                18,
-                29
-              ]
-            }
-          ]
+          "text": "Wie viele Infektionen gibt es in der Hauptstadt?"
         },
         {
-          "text": "Wieviele Leute sind in den USA infiziert?",
+          "text": "Wie ist die Lage in Berlin?",
           "mentions": [
             {
-              "entity": "Land",
+              "entity": "Bundesland",
               "location": [
-                27,
-                30
+                20,
+                26
               ]
             }
           ]
@@ -426,49 +510,37 @@
           ]
         },
         {
-          "text": "Wie ist die Lage in Berlin?",
+          "text": "Wieviele Leute sind in den USA infiziert?",
           "mentions": [
             {
-              "entity": "Bundesland",
-              "location": [
-                20,
-                26
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Wie viele Infektionen gibt es in der Hauptstadt?"
-        },
-        {
-          "text": "Wie hoch ist das Risiko in Regensburg?",
-          "mentions": [
-            {
-              "entity": "Bundesland",
+              "entity": "Land",
               "location": [
                 27,
-                37
+                30
               ]
             }
           ]
         },
         {
-          "text": "Was ist in München los?"
-        },
-        {
-          "text": "Aktuelle Anzahl Infizierter"
-        },
-        {
-          "text": "Wieviele Neuerkrankungen gab es heute?"
-        },
-        {
-          "text": "Wie viele Infizierte gibt es in München?",
+          "text": "Ist das Risiko in Deutschland hoch?",
           "mentions": [
             {
-              "entity": "Bundesland",
+              "entity": "Land",
               "location": [
-                32,
-                39
+                18,
+                29
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Wie hoch ist das Risiko in Deutschland",
+          "mentions": [
+            {
+              "entity": "Land",
+              "location": [
+                27,
+                38
               ]
             }
           ]
@@ -489,55 +561,22 @@
           ]
         },
         {
-          "text": "Ich möchte Informationen zu meiner Stadt."
+          "text": "Wie viele Infizierte gibt es in München?",
+          "mentions": [
+            {
+              "entity": "Bundesland",
+              "location": [
+                32,
+                39
+              ]
+            }
+          ]
         },
         {
-          "text": "Was wird mit 'Flatten The Curve' gemeint?"
-        },
-        {
-          "text": "Wie lange wird Corona dauern?"
-        },
-        {
-          "text": "Wieviele Todesfälle gab es heute?"
-        },
-        {
-          "text": "Gib mir die neuesten Zahlen zu Corona"
-        },
-        {
-          "text": "Wieviele Leute sind genesen?"
-        },
-        {
-          "text": "Was ist das mittlere Erkrankungsalter?"
-        },
-        {
-          "text": "Wieviel Prozent werden beatmet?"
-        },
-        {
-          "text": "Wie hoch ist die Sterberate?"
-        },
-        {
-          "text": "Wieviele schwere Verläufe gibt es?"
-        },
-        {
-          "text": "Wie viele Fälle gibt es in"
+          "text": "Aktuelle Anzahl Infizierter"
         },
         {
           "text": "Fälle UK"
-        },
-        {
-          "text": "Wird die Kurve schon flacher?"
-        },
-        {
-          "text": "Wieviele Erkrankte müssen ins Krankenhaus?"
-        },
-        {
-          "text": "Wiehoch ist das Risiko zu sterben?"
-        },
-        {
-          "text": "Wieviele Leute sind an Corona gestorben?"
-        },
-        {
-          "text": "Wieviele Leute sind infiziert?"
         }
       ]
     },
@@ -545,135 +584,165 @@
       "intent": "chatbotkommunikation_kommunikation_bot_funktionalitaet",
       "examples": [
         {
+          "text": "Nach was kann ich fragen?"
+        },
+        {
+          "text": "was kannst du?"
+        },
+        {
+          "text": "Was kannst du ?"
+        },
+        {
           "text": "Wie kannst du mir helfen?"
         },
         {
           "text": "Was kann ich hier tun?"
         },
         {
-          "text": "Nach was kann ich fragen?"
-        },
-        {
           "text": "Welche Funktionen gibt es hier?"
-        },
-        {
-          "text": "Was ist das für ein Chatbot?"
         },
         {
           "text": "Wie funktioniert das hier?"
         },
         {
-          "text": "Was kannst du ?"
-        },
-        {
-          "text": "was kannst du?"
+          "text": "Was ist das für ein Chatbot?"
         }
       ]
+    },
+    {
+      "intent": "informationen_virus_info_katrastrophe",
+      "examples": [
+        {
+          "text": "Werde ich an Corona sterben?"
+        },
+        {
+          "text": "Das Virus tötet alle"
+        },
+        {
+          "text": "Wir sind verloren"
+        },
+        {
+          "text": "Wir werden alle sterben"
+        },
+        {
+          "text": "Werden wir alle sterben?"
+        },
+        {
+          "text": "Werde ich sterben?"
+        },
+        {
+          "text": "ich will mich umbringe"
+        },
+        {
+          "text": "Werden noch mehr Menschen sterben?"
+        }
+      ],
+      "description": "Fragen nach dem Katastrophenfall"
     },
     {
       "intent": "informationen_politisch_ausgangssperre_allgemein",
       "examples": [
         {
-          "text": "Wann darf ich wieder verreisen?"
+          "text": "Darf ich mit meinen Nachbarn zusammen grillen?"
         },
         {
           "text": "Kann ich noch bedenkenlos in den Urlaub fahren?"
         },
         {
-          "text": "Darf ich mit meinen Nachbarn zusammen grillen?"
-        },
-        {
-          "text": "Darf ich zur Arbeit gehen?"
-        },
-        {
-          "text": "Ich muss arbeiten"
-        },
-        {
-          "text": "Ich will mich mit Freunden treffen"
-        },
-        {
-          "text": "Ich halte es in meiner Wohnung nicht mehr aus."
-        },
-        {
-          "text": "Gibt es eine Ausgangssperre?"
-        },
-        {
-          "text": "Wird es eine Ausgangssperre geben?"
-        },
-        {
-          "text": "Kann ich noch mit meinem Hund raus gehen?"
-        },
-        {
-          "text": "Wie lang geht die Ausganssperre?"
-        },
-        {
-          "text": "Kann ich in den Park gehen?"
-        },
-        {
-          "text": "Darf ich joggen gehen?"
-        },
-        {
-          "text": "Wann wird die Ausgangssperre verhängt?"
-        },
-        {
-          "text": "Kann ich mit meinen Kindern auf den Spielplatz?"
-        },
-        {
-          "text": "Ich stecke mitten im Umzug, darf ich meine Möbel von A nach B fahren?"
-        },
-        {
-          "text": "Warum haben die Kinos zu?"
-        },
-        {
-          "text": "Kann ich noch ein Theatherstück anschauen?"
-        },
-        {
-          "text": "Wann gibt es wieder Konzerte?"
-        },
-        {
-          "text": "Kann ich noch in Restaurants gehen?"
-        },
-        {
-          "text": "Sind Museen geschlossen?"
-        },
-        {
-          "text": "Sind Schwimmbäder geöffnet?"
-        },
-        {
-          "text": "Haben Clubs noch offen?"
-        },
-        {
-          "text": "Fährt mein Zug noch?"
-        },
-        {
-          "text": "Wie reagiert die Deutsche Bahn?"
-        },
-        {
-          "text": "Werden (Groß)-Veranstaltungen abgesagt?"
-        },
-        {
-          "text": "Welche Einschränkungen gelten für das öffentlich Leben?"
-        },
-        {
-          "text": "Welche Aktionen kann ich in der Fremdbetreuung noch machen? Darf ich Plätzchen backen und ähnliches?"
-        },
-        {
-          "text": "Wieso wird bei der Einreise am Flughafen kein Fieber gemessen?"
-        },
-        {
-          "text": "Wann darf ich mich wieder draußen treffen?"
-        },
-        {
-          "text": "Darf ich raus?"
-        },
-        {
-          "text": "Darf ich noch raus gehen?"
+          "text": "Ich habe kein Corona. Darf ich mit meinem Hund Gassi, während der Ausgangssperre?"
         },
         {
           "text": "Darf ich das Haus verlassen?"
         },
         {
-          "text": "Ich habe kein Corona. Darf ich mit meinem Hund Gassi, während der Ausgangssperre?"
+          "text": "Darf ich noch raus gehen?"
+        },
+        {
+          "text": "Darf ich raus?"
+        },
+        {
+          "text": "Wann darf ich mich wieder draußen treffen?"
+        },
+        {
+          "text": "Wieso wird bei der Einreise am Flughafen kein Fieber gemessen?"
+        },
+        {
+          "text": "Welche Aktionen kann ich in der Fremdbetreuung noch machen? Darf ich Plätzchen backen und ähnliches?"
+        },
+        {
+          "text": "Werden (Groß)-Veranstaltungen abgesagt?"
+        },
+        {
+          "text": "Wie reagiert die Deutsche Bahn?"
+        },
+        {
+          "text": "Fährt mein Zug noch?"
+        },
+        {
+          "text": "Haben Clubs noch offen?"
+        },
+        {
+          "text": "Sind Schwimmbäder geöffnet?"
+        },
+        {
+          "text": "Sind Museen geschlossen?"
+        },
+        {
+          "text": "Kann ich noch in Restaurants gehen?"
+        },
+        {
+          "text": "Wann gibt es wieder Konzerte?"
+        },
+        {
+          "text": "Kann ich noch ein Theatherstück anschauen?"
+        },
+        {
+          "text": "Welche Einschränkungen gelten für das öffentlich Leben?"
+        },
+        {
+          "text": "Warum haben die Kinos zu?"
+        },
+        {
+          "text": "Ich stecke mitten im Umzug, darf ich meine Möbel von A nach B fahren?"
+        },
+        {
+          "text": "Kann ich mit meinen Kindern auf den Spielplatz?"
+        },
+        {
+          "text": "Wann wird die Ausgangssperre verhängt?"
+        },
+        {
+          "text": "Darf ich joggen gehen?"
+        },
+        {
+          "text": "Kann ich in den Park gehen?"
+        },
+        {
+          "text": "Wie lang geht die Ausganssperre?"
+        },
+        {
+          "text": "Kann ich noch mit meinem Hund raus gehen?"
+        },
+        {
+          "text": "Wird es eine Ausgangssperre geben?"
+        },
+        {
+          "text": "Gibt es eine Ausgangssperre?"
+        },
+        {
+          "text": "Ich halte es in meiner Wohnung nicht mehr aus."
+        },
+        {
+          "text": "Ich will mich mit Freunden treffen"
+        },
+        {
+          "text": "Ich muss arbeiten"
+        },
+        {
+          "text": "Darf ich zur Arbeit gehen?"
+        },
+        {
+          "text": "Wann darf ich wieder verreisen?"
         }
       ]
     },
@@ -681,34 +750,19 @@
       "intent": "informationen_virus_praevention_haendewaschen_desinfektion",
       "examples": [
         {
-          "text": "Hilft Händedesinfektionsmittel bei Reinigung von Oberflächen?"
-        },
-        {
-          "text": "Welches Desinfektionsmittel sollte ich verwenden?"
-        },
-        {
-          "text": "Muss ich meine Wohnung desinfizieren?"
-        },
-        {
-          "text": "Muss man alle Oberflächen desinfizieren?"
-        },
-        {
-          "text": "Säubern der Wohnung"
-        },
-        {
-          "text": "Entfernen von Viren im Haushalt"
-        },
-        {
-          "text": "Wie befreie ich Oberflächen von Viren?"
-        },
-        {
           "text": "Sollte ich mein Handy desinfizieren?"
         },
         {
-          "text": "Gibt es Desinfektionsmittel extra für Oberflächen?"
+          "text": "Hände richtig desinfizieren?"
         },
         {
-          "text": "Woran erkenne ich ob das Desinfektionsmittel geeignet ist?"
+          "text": "Wie desinfiziere ich meine Hände?"
+        },
+        {
+          "text": "Muss ich die Hände desinfizieren?"
+        },
+        {
+          "text": "Hände desinfizieren"
         }
       ],
       "description": "Muss ich die Hände desinfizieren? Muss ich meine Wohnung desinfizieren?"
@@ -717,16 +771,16 @@
       "intent": "informationen_virus_praevention_impfung",
       "examples": [
         {
-          "text": "Wie schnell kann ein Impstoff entwickelt werden?"
-        },
-        {
           "text": "Müssen sich alle Bürger impfen lassen wenn es eine Impfung gibt?"
         },
         {
-          "text": "Kann man sich gegen COVID-19 impfen lassen?"
+          "text": "Wie lange dauert es bis ein Impfstoff zugelassen ist?"
         },
         {
-          "text": "Wie lange dauert es bis ein Impfstoff zugelassen ist?"
+          "text": "Wie schnell kann ein Impstoff entwickelt werden?"
+        },
+        {
+          "text": "Kann man sich gegen COVID-19 impfen lassen?"
         }
       ]
     },
@@ -734,28 +788,31 @@
       "intent": "chatbotkommunikation_kommunikation_bot_danke",
       "examples": [
         {
+          "text": "Vielen Dank"
+        },
+        {
           "text": "Thx"
         },
         {
-          "text": "Merci"
-        },
-        {
-          "text": "Danke"
-        },
-        {
-          "text": "Vielen Dank"
+          "text": "Dankeschön"
         },
         {
           "text": "Tausend Dank"
         },
         {
-          "text": "Dankeschön"
+          "text": "Danke"
+        },
+        {
+          "text": "Merci"
         }
       ]
     },
     {
       "intent": "informationen_politisch_sondergruppen_haeftlinge",
       "examples": [
+        {
+          "text": "Gibt es Corona auch im Gefängnis?"
+        },
         {
           "text": "Wohin kommen corona Patienten, wenn sie Gefängnisinsassen sind?"
         },
@@ -766,13 +823,10 @@
           "text": "Was passiert mit Häftlingen, wenn sie Corona haben?"
         },
         {
-          "text": "Gibt es Corona auch im Gefängnis?"
+          "text": "Wie sieht es mit Gefängnissen aus?"
         },
         {
           "text": "Bleibt die JVA auch bei Corona sicher?"
-        },
-        {
-          "text": "Wie sieht es mit Gefängnissen aus?"
         }
       ]
     },
@@ -788,13 +842,13 @@
       "intent": "chatbotkommunikation_kommunikation_bot_verabschiedung",
       "examples": [
         {
-          "text": "Auf Wiedersehen"
+          "text": "Gute Nacht"
         },
         {
           "text": "Machs gut"
         },
         {
-          "text": "Gute Nacht"
+          "text": "Auf Wiedersehen"
         },
         {
           "text": "Ciao"
@@ -812,16 +866,16 @@
       "intent": "chatbotkommunikation_kommunikation_bot_persoenlich_geburtstag",
       "examples": [
         {
-          "text": "Wann bist du geboren?"
+          "text": "An welchem Tag bist du geboren?"
         },
         {
           "text": "Was ist dein Geburstag?"
         },
         {
-          "text": "An welchem Tag bist du geboren?"
+          "text": "Wann hast du Geburtstag?"
         },
         {
-          "text": "Wann hast du Geburtstag?"
+          "text": "Wann bist du geboren?"
         }
       ],
       "description": "Chatbot_Geburtstag"
@@ -830,16 +884,16 @@
       "intent": "chatbotkommunikation_kommunikation_bot_persoenlich_geschlecht",
       "examples": [
         {
-          "text": "Welches Geschlecht hast du?"
-        },
-        {
           "text": "Bist du ein Mann?"
         },
         {
-          "text": "Bist du eine Frau"
+          "text": "Welches Geschlecht hast du?"
         },
         {
           "text": "Was für ein Geschlecht hast du?"
+        },
+        {
+          "text": "Bist du eine Frau"
         }
       ],
       "description": "Chatbot_Geschlecht"
@@ -848,19 +902,19 @@
       "intent": "informationen_virus_info_verlauf",
       "examples": [
         {
+          "text": "Wie ist der Krakheitsverlauf?"
+        },
+        {
+          "text": "Wie lange werde ich krank sein?"
+        },
+        {
           "text": "krankheit verlauf"
         },
         {
           "text": "Wie lange ist die Intubationszeit?"
         },
         {
-          "text": "Wie ist der Krakheitsverlauf?"
-        },
-        {
           "text": "Wann geht es mir besonders schlecht?"
-        },
-        {
-          "text": "Wie lange werde ich krank sein?"
         }
       ]
     },
@@ -868,40 +922,61 @@
       "intent": "informationen_virus_info_immunitaet",
       "examples": [
         {
-          "text": "Wie sieht es mit Immunität aus?"
+          "text": "Corona nochmal bekommen"
         },
         {
           "text": "Bin ich nach einmaligem Anstecken mit dem Coronavirus dauerhaft immun?"
-        },
-        {
-          "text": "Kann man corona mehrmals bekommen?"
         },
         {
           "text": "Bin ich immun, wenn ich mich schon infiziert habe?"
         },
         {
           "text": "Wie sieht es mit Imunität aus?"
+        },
+        {
+          "text": "Wie sieht es mit Immunität aus?"
+        },
+        {
+          "text": "Kann man mehrfach an Corona erkranken?"
+        },
+        {
+          "text": "Kann man zwei mal an Corona erkranken?"
+        },
+        {
+          "text": "Kann ich erneut krank werden, wenn ich schon Corona hatte?"
+        },
+        {
+          "text": "Bin ich nach einer Erkrankung immun?"
+        },
+        {
+          "text": "Wie lange hält die Immunität"
+        },
+        {
+          "text": "Wann kann ich mich wieder anstecken"
+        },
+        {
+          "text": "Wie lange bin ich immun?"
+        },
+        {
+          "text": "Bin ich immun, wenn ich Corona schon hatte?"
+        },
+        {
+          "text": "Bin ich resistent gegen Corona"
+        },
+        {
+          "text": "Corona zweites Mal"
+        },
+        {
+          "text": "Zeitraum immun"
+        },
+        {
+          "text": "Kann man corona mehrmals bekommen?"
         }
       ]
     },
     {
       "intent": "informationen_virus_test_ablauf",
       "examples": [
-        {
-          "text": "Wann bekommt man  die Testergebnisse ?"
-        },
-        {
-          "text": "Kann ich eine Test selber von zu Hause aus machen?"
-        },
-        {
-          "text": "Muss ich beim Testcenter vorher anrufen ?"
-        },
-        {
-          "text": "Kann ich einen Test online bestellen?"
-        },
-        {
-          "text": "Wo finde ich die Testcenter?"
-        },
         {
           "text": "Wie funktioniert ein Test?"
         },
@@ -921,7 +996,22 @@
           "text": "Kann ich für einen Test einfach zum Arzt gehen?"
         },
         {
+          "text": "Wo finde ich die Testcenter?"
+        },
+        {
+          "text": "Muss ich beim Testcenter vorher anrufen ?"
+        },
+        {
+          "text": "Kann ich einen Test online bestellen?"
+        },
+        {
+          "text": "Kann ich eine Test selber von zu Hause aus machen?"
+        },
+        {
           "text": "Wer macht den Test wenn ich nicht zur teststation fahren kann?"
+        },
+        {
+          "text": "Wann bekommt man  die Testergebnisse ?"
         },
         {
           "text": "Hat die Bundesregierung vor alle Bürger zu testen?"
@@ -932,10 +1022,7 @@
       "intent": "Risikoeinschätzung",
       "examples": [
         {
-          "text": "Selbsttest"
-        },
-        {
-          "text": "Chritee selbsttest"
+          "text": "Was ist mein Risiko?"
         },
         {
           "text": "Charitee Risiko Einschätzung"
@@ -947,19 +1034,22 @@
           "text": "Welches Risiko habe ich?"
         },
         {
+          "text": "Chritee selbsttest"
+        },
+        {
           "text": "Welches Risiko an Corona Erkrankt zu sein habe ich?"
         },
         {
-          "text": "Was ist mein Risiko?"
-        },
-        {
-          "text": "Ist ein selbsttest möglich?"
+          "text": "Ich möchte eine Risikoeinschätzung durchführen"
         },
         {
           "text": "Ich will einen Selbsttest durchführen"
         },
         {
-          "text": "Ich möchte eine Risikoeinschätzung durchführen"
+          "text": "Ist ein selbsttest möglich?"
+        },
+        {
+          "text": "Selbsttest"
         }
       ],
       "description": ""
@@ -986,43 +1076,130 @@
       "intent": "diagnostik_symptome_beschreibung_notfall",
       "examples": [
         {
-          "text": "Mir geht es dreckig und ich kann nicht mehr richtig atmen."
+          "text": "Meine Mutter bekommt keine Luft mehr"
         },
         {
-          "text": "Notfall"
+          "text": "Seit Tagen Fieber über 39°.",
+          "mentions": [
+            {
+              "entity": "Symptom",
+              "location": [
+                11,
+                24
+              ]
+            }
+          ]
         },
         {
-          "text": "Hilfe, atemnot. Was tun?"
+          "text": "akute Atemnot",
+          "mentions": [
+            {
+              "entity": "Symptom",
+              "location": [
+                0,
+                13
+              ]
+            }
+          ]
         },
         {
-          "text": "Atemnot"
-        },
-        {
-          "text": "Ich kann nicht mehr atmen."
-        },
-        {
-          "text": "Mir geht es seit mehreren Tagen enorm schlecht."
+          "text": "Mein Freund bekommt keine Luft mehr",
+          "mentions": [
+            {
+              "entity": "Symptom",
+              "location": [
+                20,
+                30
+              ]
+            }
+          ]
         },
         {
           "text": "Hilfe. Hier gibt es einen Notfall."
         },
         {
-          "text": "akute Atemnot"
+          "text": "Atemnot"
         },
         {
-          "text": "Seit Tagen Fieber über 39°."
+          "text": "Hilfe, atemnot. Was tun?",
+          "mentions": [
+            {
+              "entity": "Symptom",
+              "location": [
+                7,
+                14
+              ]
+            }
+          ]
         },
         {
-          "text": "Meine Mutter bekommt keine Luft mehr"
+          "text": "Notfall"
         },
         {
-          "text": "Ich bekomme keine Luft"
+          "text": "Mir geht es dreckig und ich kann nicht mehr richtig atmen."
         },
         {
           "text": "Ich habe Todesangst"
         },
         {
-          "text": "Mein Freund bekommt keine Luft mehr"
+          "text": "Ich will mich umbringen",
+          "mentions": [
+            {
+              "entity": "Symptom",
+              "location": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ich möchte mich umbringen",
+          "mentions": [
+            {
+              "entity": "Symptom",
+              "location": [
+                0,
+                25
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ich bekomme keine Luft",
+          "mentions": [
+            {
+              "entity": "Symptom",
+              "location": [
+                12,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Mir geht es seit mehreren Tagen enorm schlecht.",
+          "mentions": [
+            {
+              "entity": "Symptom",
+              "location": [
+                12,
+                46
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ich kann nicht mehr atmen.",
+          "mentions": [
+            {
+              "entity": "Symptom",
+              "location": [
+                9,
+                25
+              ]
+            }
+          ]
         }
       ],
       "description": "Notfall Symptome"
@@ -1030,6 +1207,12 @@
     {
       "intent": "chatbotkommunikation_kommunikation_bot_quellen",
       "examples": [
+        {
+          "text": "Woher weißt du das?"
+        },
+        {
+          "text": "Auf welche Quellen beziehst du dich?"
+        },
         {
           "text": "Warum weißt du das alles?"
         },
@@ -1040,13 +1223,7 @@
           "text": "Wer hat dir das gesagt?"
         },
         {
-          "text": "Woher weißt du das?"
-        },
-        {
           "text": "Woher kommen die Informationen?"
-        },
-        {
-          "text": "Auf welche Quellen beziehst du dich?"
         }
       ],
       "description": "Chatbot_Quellen"
@@ -1055,19 +1232,19 @@
       "intent": "chatbotkommunikation_kommunikation_bot_rueckmeldung_negativ",
       "examples": [
         {
-          "text": "Hilfreich war das nicht."
-        },
-        {
-          "text": "Da geht keiner ran?"
-        },
-        {
-          "text": "Das hat nicht geholfen."
+          "text": "Das war nicht hilfreich."
         },
         {
           "text": "Das war nicht hilfreich"
         },
         {
-          "text": "Das war nicht hilfreich."
+          "text": "Hilfreich war das nicht."
+        },
+        {
+          "text": "Das hat nicht geholfen."
+        },
+        {
+          "text": "Da geht keiner ran?"
         }
       ],
       "description": "Chatbot_negativerückmeldung"
@@ -1088,19 +1265,28 @@
       "intent": "informationen_virus_praevention_infektionsschutz",
       "examples": [
         {
-          "text": "Mundschutz?"
+          "text": "Ist es sinnvoll einen Mundschutz zu tragen?"
         },
         {
           "text": "Kann man sich durch einen einfachen Mundschutz vor Corona schützen? Wie schütze ich mich bei der Betreuung von Kindern?"
         },
         {
-          "text": "Kann man sich durch einen einfachen Mundschutz vor Corona schützen?"
+          "text": "Mundschutz?"
+        },
+        {
+          "text": "Helfen Atemmasken?"
+        },
+        {
+          "text": "Helfen Atemschutzmasken?"
+        },
+        {
+          "text": "Sollte ich eine Atemmaske trainieren?"
         },
         {
           "text": "Soll ich eine Maske tragen, um mich selbst zu schützen?"
         },
         {
-          "text": "Ist es sinnvoll einen Mundschutz zu tragen?"
+          "text": "Kann man sich durch einen einfachen Mundschutz vor Corona schützen?"
         }
       ],
       "description": "Infektionsschutz, Masken,..."
@@ -1109,43 +1295,7 @@
       "intent": "informationen_virus_test_verfuegbarkeit",
       "examples": [
         {
-          "text": "Gibt es einen Test für Corona?"
-        },
-        {
           "text": "Kann ich mich selbst testen?"
-        },
-        {
-          "text": "Gibt es einen Schnelltest?"
-        },
-        {
-          "text": "Ergibt ein Test bei mir sinn?"
-        },
-        {
-          "text": "Sollte ich mich testen lassen?"
-        },
-        {
-          "text": "Kann ich mich testen lassen?"
-        },
-        {
-          "text": "Existiert ein Test?"
-        },
-        {
-          "text": "Wie lasse ich mich testen?"
-        },
-        {
-          "text": "Ich möchte auf Corona getestet werden"
-        },
-        {
-          "text": "Ich brauch einen Test."
-        },
-        {
-          "text": "Kann man sich auf Corona testen lassen?"
-        },
-        {
-          "text": "Kann man sich testen lassen?"
-        },
-        {
-          "text": "Wie verfügbar sind Tests?"
         },
         {
           "text": "Gibt es in der Apotheke einen Corona Test zu kaufen?"
@@ -1157,10 +1307,10 @@
           "text": "Kann ich mich auch ohne Arzt testen lassen?"
         },
         {
-          "text": "Muss ich für einen Test ins Krankenhaus?"
+          "text": "Kann ich auch ohne ärztlichen Bescheid einen Test durchführen?"
         },
         {
-          "text": "Kann ich auch ohne ärztlichen Bescheid einen Test durchführen?"
+          "text": "Muss ich für einen Test ins Krankenhaus?"
         },
         {
           "text": "Wo kann ich mich testen lassen?"
@@ -1179,6 +1329,42 @@
         },
         {
           "text": "Wer entscheidet, ob ein Test durchgeführt wird?"
+        },
+        {
+          "text": "Ich brauch einen Test."
+        },
+        {
+          "text": "Ich möchte auf Corona getestet werden"
+        },
+        {
+          "text": "Wie lasse ich mich testen?"
+        },
+        {
+          "text": "Kann ich mich testen lassen?"
+        },
+        {
+          "text": "Sollte ich mich testen lassen?"
+        },
+        {
+          "text": "Ergibt ein Test bei mir sinn?"
+        },
+        {
+          "text": "Wie verfügbar sind Tests?"
+        },
+        {
+          "text": "Kann man sich testen lassen?"
+        },
+        {
+          "text": "Gibt es einen Test für Corona?"
+        },
+        {
+          "text": "Kann man sich auf Corona testen lassen?"
+        },
+        {
+          "text": "Existiert ein Test?"
+        },
+        {
+          "text": "Gibt es einen Schnelltest?"
         }
       ]
     },
@@ -1186,7 +1372,7 @@
       "intent": "informationen_virus_info_langzeitschaeden",
       "examples": [
         {
-          "text": "Zukünftige Gesundheitsprobleme"
+          "text": "Sind Langzeitschäden bekannt?"
         },
         {
           "text": "Gibt es Langzeitschäden von Corona?"
@@ -1195,13 +1381,7 @@
           "text": "Muss ich mit Langzeitschäden rechnen?"
         },
         {
-          "text": "Langfristige Gesundheitsprobleme Corona"
-        },
-        {
-          "text": "Langfristige Beeinträchtigung"
-        },
-        {
-          "text": "Sind Langzeitschäden bekannt?"
+          "text": "Zukünftige Gesundheitsprobleme"
         },
         {
           "text": "Langfristige Folgen Gesundheit"
@@ -1211,18 +1391,18 @@
         },
         {
           "text": "Bleiben nach der Ansteckung mit Corona Langzeitschäden?"
+        },
+        {
+          "text": "Langfristige Gesundheitsprobleme Corona"
+        },
+        {
+          "text": "Langfristige Beeinträchtigung"
         }
       ]
     },
     {
       "intent": "informationen_virus_info_symptome",
       "examples": [
-        {
-          "text": "Was sind die Symptome?"
-        },
-        {
-          "text": "Ich huste, habe ich corona?"
-        },
         {
           "text": "Welche Symptome gibts beim Virus?"
         },
@@ -1231,6 +1411,12 @@
         },
         {
           "text": "Welche Symptome hat Corona?"
+        },
+        {
+          "text": "Was sind die Symptome?"
+        },
+        {
+          "text": "Ich huste, habe ich corona?"
         }
       ]
     },
@@ -1258,16 +1444,13 @@
       "intent": "informationen_rechtlich_meldepflicht_allgemein",
       "examples": [
         {
+          "text": "Wohin melde ich mich beim Verdachtsfall?"
+        },
+        {
           "text": "An wen muss man einen Verdacht melden?"
         },
         {
           "text": "Wo muss ich mich melden, wenn ich den Verdacht habe, infiziert zu sein?"
-        },
-        {
-          "text": "Wohin melde ich mich beim Verdachtsfall?"
-        },
-        {
-          "text": "Muss ich mich melden, wenn der Vedacht ausgeschlossen wurde?"
         },
         {
           "text": "Muss ich es Melden, wenn ich Corona habe?"
@@ -1292,34 +1475,7 @@
       "intent": "informationen_virus_info_allgemein",
       "examples": [
         {
-          "text": "Werden Kinder krank?"
-        },
-        {
-          "text": "Woher kommt corona?"
-        },
-        {
-          "text": "Was ist das Corona Virus?"
-        },
-        {
-          "text": "Was steckt hinter dem Virus?"
-        },
-        {
-          "text": "Was ist das Virus denn eigentlich?"
-        },
-        {
-          "text": "Wie lautet die Definition von Corona?"
-        },
-        {
-          "text": "Woher kommt der Name?"
-        },
-        {
-          "text": "Seit wann gibt es Corona?"
-        },
-        {
-          "text": "verlauf"
-        },
-        {
-          "text": "Wer ist besonders gefährdet?"
+          "text": "Wie gefährlich ist das Coronavirus?"
         },
         {
           "text": "Was ist das Risiko, wenn ich an Corona erkranke?"
@@ -1328,19 +1484,46 @@
           "text": "Was macht Corona?"
         },
         {
-          "text": "Wie gefährlich ist das Coronavirus?"
+          "text": "Was ist Corona?"
         },
         {
-          "text": "Kannst Du mir sagen was Corona eigentlich ist?"
+          "text": "Was ist denn dieses neue Coronavirus?"
+        },
+        {
+          "text": "Wie lautet die Definition von Corona?"
+        },
+        {
+          "text": "Was steckt hinter dem Virus?"
+        },
+        {
+          "text": "Was ist das Virus denn eigentlich?"
+        },
+        {
+          "text": "verlauf"
+        },
+        {
+          "text": "Wer ist besonders gefährdet?"
+        },
+        {
+          "text": "Woher kommt corona?"
+        },
+        {
+          "text": "Was ist das Corona Virus?"
+        },
+        {
+          "text": "Seit wann gibt es Corona?"
+        },
+        {
+          "text": "Woher kommt der Name?"
+        },
+        {
+          "text": "Werden Kinder krank?"
         },
         {
           "text": "Woher kommt der Virus?"
         },
         {
-          "text": "Was ist Corona?"
-        },
-        {
-          "text": "Was ist denn dieses neue Coronavirus?"
+          "text": "Kannst Du mir sagen was Corona eigentlich ist?"
         },
         {
           "text": "Was ist das Virus?"
@@ -1351,19 +1534,19 @@
       "intent": "informationen_politisch_massnahmen_allgemein",
       "examples": [
         {
-          "text": "Gibt es Einschränkungen im öffentlichen Leben?"
-        },
-        {
           "text": "Gibt es aktuell Einschränkungen?"
         },
         {
-          "text": "Welche Maßnahmen sind aktuell wirksam?"
+          "text": "Gibt es Einschränkungen im öffentlichen Leben?"
         },
         {
           "text": "Was hat die Politik verordnet?"
         },
         {
           "text": "Welche Einschränkungen gibt es?"
+        },
+        {
+          "text": "Welche Maßnahmen sind aktuell wirksam?"
         }
       ]
     },
@@ -1371,25 +1554,28 @@
       "intent": "informationen_politisch_oeffentlichkeitsarbeit_planung",
       "examples": [
         {
-          "text": "Wann gibt es die nächste Pressekonferenz zum Corona?"
+          "text": "Wann gibts wieder eine PK?"
         },
         {
-          "text": "Wann kann ich neue Informationen erwarten?"
+          "text": "Wann spricht die Kanzlerin wieder?"
+        },
+        {
+          "text": "Wann gibt es die nächste Pressekonferenz zum Corona?"
         },
         {
           "text": "Wann gibt es neue offizielle Informationen?"
         },
         {
-          "text": "Wann gibts wieder eine PK?"
-        },
-        {
-          "text": "Wann spricht die Kanzlerin wieder?"
+          "text": "Wann kann ich neue Informationen erwarten?"
         }
       ]
     },
     {
       "intent": "chatbotkommunikation_kommunikation_bot_persoenlich_test",
       "examples": [
+        {
+          "text": "Das ist ein Test"
+        },
         {
           "text": "test"
         }
@@ -1400,19 +1586,19 @@
       "intent": "informationen_infrastruktur_quarantaene_bedeutung",
       "examples": [
         {
+          "text": "Wie lang dauert eine Quarantäne?"
+        },
+        {
           "text": "Was ist diese Selbstquarantäne?"
+        },
+        {
+          "text": "Was bedeutet Quarantäne?"
         },
         {
           "text": "Wie lange dauert die Quarantäne?"
         },
         {
-          "text": "Wie lang dauert eine Quarantäne?"
-        },
-        {
           "text": "Wann ist Quarantäne sinnvoll?"
-        },
-        {
-          "text": "Was bedeutet Quarantäne?"
         }
       ],
       "description": ""
@@ -1421,10 +1607,31 @@
       "intent": "informationen_virus_praevention_allgemein",
       "examples": [
         {
-          "text": "Helfen warme Getränke damit der Virus nicht in meine Lunge geht"
+          "text": "Infektionsschutz"
         },
         {
-          "text": "Was muss getan werden, um der Erkrankungswelle bestmöglich zu begegnen?"
+          "text": "Welches Desinfektionsmittel benutze ich für die Oberflächen"
+        },
+        {
+          "text": "Welches Desinfektionsmittel hilft gegen den Virus"
+        },
+        {
+          "text": "Was empfiehlst du mir zu tun?"
+        },
+        {
+          "text": "Wie schütze ich mich bei der Betreuung von Kindern? Mundschutz? Abstand halten? Es hat sehr viel mit Nähe zu tun"
+        },
+        {
+          "text": "Was sind die momentanen Empfehlungen?"
+        },
+        {
+          "text": "Wie soll ich mich verhalten?"
+        },
+        {
+          "text": "Sollte ich zum Arzt gehen?"
+        },
+        {
+          "text": "Was empfieht die Regierung zu tun?"
         },
         {
           "text": "Worauf muss ich achten?"
@@ -1457,49 +1664,31 @@
           "text": "Gib mir einen Ratschlag."
         },
         {
-          "text": "Infektionsschutz"
+          "text": "Helfen warme Getränke damit der Virus nicht in meine Lunge geht"
         },
         {
-          "text": "Abstand halten? Es hat sehr viel mit Nähe zu tun"
-        },
-        {
-          "text": "Präventivmaßnahmen"
-        },
-        {
-          "text": "Prävention"
-        },
-        {
-          "text": "Wie kann ich mich vor Ansteckung schützen"
-        },
-        {
-          "text": "Soll ich noch selbst einkaufen gehen?"
+          "text": "Was muss getan werden, um der Erkrankungswelle bestmöglich zu begegnen?"
         },
         {
           "text": "Wie kann ich mich schützen?"
         },
         {
-          "text": "Welches Desinfektionsmittel benutze ich für die Oberflächen"
+          "text": "Soll ich noch selbst einkaufen gehen?"
         },
         {
-          "text": "Welches Desinfektionsmittel hilft gegen den Virus"
+          "text": "Wie kann ich mich vor Ansteckung schützen"
         },
         {
-          "text": "Was empfiehlst du mir zu tun?"
+          "text": "Wie sind die aktuellen Präventivmaßnahmen?"
         },
         {
-          "text": "Wie schütze ich mich bei der Betreuung von Kindern? Mundschutz? Abstand halten? Es hat sehr viel mit Nähe zu tun"
+          "text": "Prävention"
         },
         {
-          "text": "Was sind die momentanen Empfehlungen?"
+          "text": "Präventivmaßnahmen"
         },
         {
-          "text": "Wie soll ich mich verhalten?"
-        },
-        {
-          "text": "Sollte ich zum Arzt gehen?"
-        },
-        {
-          "text": "Was empfieht die Regierung zu tun?"
+          "text": "Abstand halten? Es hat sehr viel mit Nähe zu tun"
         }
       ]
     },
@@ -1507,19 +1696,19 @@
       "intent": "diagnostik_risiko_kontakt_positiv",
       "examples": [
         {
-          "text": "Meine Freundin wurde positiv auf Corona getestet"
-        },
-        {
           "text": "Meine Eltern haben Corona"
         },
         {
           "text": "Mein Kollege hat Corona"
         },
         {
+          "text": "Alle um mich herum sind krank"
+        },
+        {
           "text": "Ich hatte Kontakt zu jemandem mit Corona"
         },
         {
-          "text": "Alle um mich herum sind krank"
+          "text": "Meine Freundin wurde positiv auf Corona getestet"
         }
       ]
     },
@@ -1527,19 +1716,19 @@
       "intent": "informationen_infrastruktur_quarantaene_einsamkeit",
       "examples": [
         {
-          "text": "Ich bin einsam"
+          "text": "Es ist so einsam"
         },
         {
-          "text": "Es ist so einsam"
+          "text": "Ich bin ganz allein"
+        },
+        {
+          "text": "Ich bin einsam"
         },
         {
           "text": "Ich bin hier total alleine"
         },
         {
           "text": "Ich fühle mich alleine"
-        },
-        {
-          "text": "Ich bin ganz allein"
         }
       ],
       "description": ""
@@ -1548,7 +1737,7 @@
       "intent": "informationen_infrastruktur_quarantaene_versorgung",
       "examples": [
         {
-          "text": "Wer versorgt mich in Quarantäne?"
+          "text": "Wie muss ich mich in Quarantäne verhalten?"
         },
         {
           "text": "Darf ich in Quarantäne spazieren gehen?"
@@ -1560,10 +1749,10 @@
           "text": "Was darf ich in Quarantäne?"
         },
         {
-          "text": "Wie komme ich in Quarantäne an Lebensmittel?"
+          "text": "Wer versorgt mich in Quarantäne?"
         },
         {
-          "text": "Wie muss ich mich in Quarantäne verhalten?"
+          "text": "Wie komme ich in Quarantäne an Lebensmittel?"
         },
         {
           "text": "Wie versorge ich mich in Quarantäne?"
@@ -1584,19 +1773,19 @@
           "text": "Ich möchte mehr über dich wissen!"
         },
         {
-          "text": "Was gibt es über dich wissen?"
-        },
-        {
-          "text": "Wer spricht hier mit mir?"
-        },
-        {
-          "text": "Wer ist diese Corina?"
+          "text": "Erzähl mir von dir!"
         },
         {
           "text": "Wer ist da?"
         },
         {
-          "text": "Erzähl mir von dir!"
+          "text": "Wer ist diese Corina?"
+        },
+        {
+          "text": "Wer spricht hier mit mir?"
+        },
+        {
+          "text": "Was gibt es über dich wissen?"
         }
       ]
     },
@@ -1604,10 +1793,10 @@
       "intent": "informationen_virus_infektion_gesichert",
       "examples": [
         {
-          "text": "Ich habe corona, was tun?"
+          "text": "Bei mir wurde Corona festgestellt, was nun?"
         },
         {
-          "text": "Ich habe corona, was soll ich tun?"
+          "text": "Wie lange muss ich zuhause bleiben?"
         },
         {
           "text": "Wie schütze ich andere Menschen, wenn ich bereits mit dem Virus infiziert bin?"
@@ -1619,25 +1808,25 @@
           "text": "Was mache ich wenn das Virus bei mir festgestellt wurde?"
         },
         {
-          "text": "Bei mir wurde Corona festgestellt, was nun?"
-        },
-        {
-          "text": "Bei mir wurde eine Infektion bestaegigt, was muss ich jetzt machen?"
-        },
-        {
-          "text": "Infektion wurde bei mir bestaetigt, was soll ich machen?"
+          "text": "Wie kann ich meine Symptome lindern?"
         },
         {
           "text": "Darf ich meine Enkelkinder sehen?"
         },
         {
-          "text": "Wie kann ich meine Symptome lindern?"
+          "text": "Infektion wurde bei mir bestaetigt, was soll ich machen?"
+        },
+        {
+          "text": "Bei mir wurde eine Infektion bestaegigt, was muss ich jetzt machen?"
         },
         {
           "text": "Was kann ich tun damit der Virus bei mir nicht so schlimm verläuft?"
         },
         {
-          "text": "Wie lange muss ich zuhause bleiben?"
+          "text": "Ich habe corona, was soll ich tun?"
+        },
+        {
+          "text": "Ich habe corona, was tun?"
         },
         {
           "text": "Bei mir wurde eine Infektion bestätigt, was muss ich jetzt machen?"
@@ -1654,10 +1843,10 @@
           "text": "Bist du ein Mensch?"
         },
         {
-          "text": "Bist du ein Bot?"
+          "text": "Was ist ein Bot?"
         },
         {
-          "text": "Was ist ein Bot?"
+          "text": "Bist du ein Bot?"
         }
       ],
       "description": "Chatbot_Bot"
@@ -1666,25 +1855,25 @@
       "intent": "informationen_virus_test_kosten",
       "examples": [
         {
-          "text": "Was kostet ein Test?"
-        },
-        {
-          "text": "Wie teuer ist ein Test?"
-        },
-        {
-          "text": "Wer bezahlt einen Test?"
-        },
-        {
-          "text": "Kann ich mir einen Test leisten?"
-        },
-        {
-          "text": "Muss ich den Test selbst bezahlen?"
+          "text": "Ist ein Test kostenfrei?"
         },
         {
           "text": "Ist der corona Test kostenlos?"
         },
         {
-          "text": "Ist ein Test kostenfrei?"
+          "text": "Muss ich den Test selbst bezahlen?"
+        },
+        {
+          "text": "Kann ich mir einen Test leisten?"
+        },
+        {
+          "text": "Wer bezahlt einen Test?"
+        },
+        {
+          "text": "Wie teuer ist ein Test?"
+        },
+        {
+          "text": "Was kostet ein Test?"
         }
       ]
     },
@@ -1692,16 +1881,16 @@
       "intent": "chatbotkommunikation_kommunikation_bot_persoenlich_name",
       "examples": [
         {
-          "text": "Wer sind Sie?"
-        },
-        {
           "text": "Wer bist du?"
         },
         {
-          "text": "Wie heißt du?"
+          "text": "Wer sind Sie?"
         },
         {
           "text": "Wie heißen Sie?"
+        },
+        {
+          "text": "Wie heißt du?"
         }
       ],
       "description": "Chatbot_Name"
@@ -1727,72 +1916,6 @@
       "intent": "diagnostik_symptome_beschreibung_corona",
       "examples": [
         {
-          "text": "Ich habe Halsschmerzen",
-          "mentions": [
-            {
-              "entity": "Symptom",
-              "location": [
-                9,
-                22
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Ich rieche nichts mehr",
-          "mentions": [
-            {
-              "entity": "Symptom",
-              "location": [
-                4,
-                17
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Beschreibe die häufigsten Symptome"
-        },
-        {
-          "text": "ich habe fieber",
-          "mentions": [
-            {
-              "entity": "Symptom",
-              "location": [
-                9,
-                15
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Ich habe husten",
-          "mentions": [
-            {
-              "entity": "Symptom",
-              "location": [
-                9,
-                15
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Habe ich mich angesteckt?"
-        },
-        {
-          "text": "ich fühle mich krank"
-        },
-        {
-          "text": "ich fühle mich nicht gut"
-        },
-        {
-          "text": "ich fühle mich schlecht"
-        },
-        {
-          "text": "Mir ist heiß"
-        },
-        {
           "text": "Mir ist kalt"
         },
         {
@@ -1809,42 +1932,6 @@
         },
         {
           "text": "Welche Symptome sind typisch für COVID-19?"
-        },
-        {
-          "text": "Mir tut alles weh.",
-          "mentions": [
-            {
-              "entity": "Symptom",
-              "location": [
-                4,
-                17
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Mein Hals kratzt",
-          "mentions": [
-            {
-              "entity": "Symptom",
-              "location": [
-                5,
-                16
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Ich schmecke nichts mehr",
-          "mentions": [
-            {
-              "entity": "Symptom",
-              "location": [
-                4,
-                19
-              ]
-            }
-          ]
         },
         {
           "text": "Habe ich Grippe oder Corona?",
@@ -1878,6 +1965,18 @@
           ]
         },
         {
+          "text": "ich habe fieber",
+          "mentions": [
+            {
+              "entity": "Symptom",
+              "location": [
+                9,
+                15
+              ]
+            }
+          ]
+        },
+        {
           "text": "Ich habe Gliederschmerzen",
           "mentions": [
             {
@@ -1888,6 +1987,117 @@
               ]
             }
           ]
+        },
+        {
+          "text": "Ich habe husten",
+          "mentions": [
+            {
+              "entity": "Symptom",
+              "location": [
+                9,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ich habe Halsschmerzen",
+          "mentions": [
+            {
+              "entity": "Symptom",
+              "location": [
+                9,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ich rieche nichts mehr",
+          "mentions": [
+            {
+              "entity": "Symptom",
+              "location": [
+                4,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Habe ich mich angesteckt?"
+        },
+        {
+          "text": "Selbsteinschätzung"
+        },
+        {
+          "text": "Halsschmerzen"
+        },
+        {
+          "text": "Durchfall"
+        },
+        {
+          "text": "Fieber"
+        },
+        {
+          "text": "Husten"
+        },
+        {
+          "text": "Gliederschmerzen"
+        },
+        {
+          "text": "Schnupfen"
+        },
+        {
+          "text": "Mir tut alles weh.",
+          "mentions": [
+            {
+              "entity": "Symptom",
+              "location": [
+                4,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ich schmecke nichts mehr",
+          "mentions": [
+            {
+              "entity": "Symptom",
+              "location": [
+                4,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Mein Hals kratzt",
+          "mentions": [
+            {
+              "entity": "Symptom",
+              "location": [
+                5,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Beschreibe die häufigsten Symptome"
+        },
+        {
+          "text": "ich fühle mich krank"
+        },
+        {
+          "text": "ich fühle mich nicht gut"
+        },
+        {
+          "text": "ich fühle mich schlecht"
+        },
+        {
+          "text": "Mir ist heiß"
         }
       ],
       "description": "Symptome"
@@ -1895,9 +2105,6 @@
     {
       "intent": "informationen_infrastruktur_quarantaene_lohnfortzahlung",
       "examples": [
-        {
-          "text": "Zahlt der Arbeitgeber meinen Lohn  wenn ich im verdachtsfall in Quarantäne gehe"
-        },
         {
           "text": "Bekomme ich Geld, wenn ich in Quarantäne gehe?"
         },
@@ -1909,6 +2116,9 @@
         },
         {
           "text": "Wer bezahlt mich in Quarantäne?"
+        },
+        {
+          "text": "Zahlt der Arbeitgeber meinen Lohn  wenn ich im verdachtsfall in Quarantäne gehe"
         }
       ]
     },
@@ -1928,10 +2138,7 @@
       "intent": "informationen_virus_therapie_behandlung",
       "examples": [
         {
-          "text": "Wie kann ich COVID-19 behandeln?"
-        },
-        {
-          "text": "Kann man das Virus behandeln?"
+          "text": "Gibt es eine Behandlung?"
         },
         {
           "text": "Kann das Virus behandelt werden?"
@@ -1943,19 +2150,22 @@
           "text": "Wie wird es behandelt?"
         },
         {
-          "text": "Gibt es eine Behandlung?"
+          "text": "Wie kann ich Corona behandeln?"
         },
         {
           "text": "Wie sieht die Behandlung aus?"
         },
         {
-          "text": "Wie kann ich Corona behandeln?"
+          "text": "Wie kann ich das Virus behandeln?"
         },
         {
           "text": "Wie sieht eine Behandlung aus?"
         },
         {
-          "text": "Wie kann ich das Virus behandeln?"
+          "text": "Wie kann ich COVID-19 behandeln?"
+        },
+        {
+          "text": "Kann man das Virus behandeln?"
         }
       ]
     },
@@ -1964,6 +2174,9 @@
       "examples": [
         {
           "text": "Das war hilfreich."
+        },
+        {
+          "text": "Das war hilfreich!"
         },
         {
           "text": "Das hat geholfen."
@@ -1975,25 +2188,25 @@
       "intent": "informationen_virus_therapie_praxisbesuch",
       "examples": [
         {
-          "text": "Darf ich noch in eine Praxis?"
-        },
-        {
           "text": "Ich habe einen Arzttermin, kann ich den wahrnehmen?"
         },
         {
-          "text": "Was muss ich beachten wenn ich zum Arzt gehe?"
-        },
-        {
-          "text": "Was muss ich beachten wenn ich eine Arztpraxis beachten?"
-        },
-        {
-          "text": "Darf man noch zum Arzt?"
+          "text": "Worauf muss ich achten wenn ich eine Praxis besuche?"
         },
         {
           "text": "Gibt es spezielle Dinge zu beachten wenn ich zum Arzt will?"
         },
         {
-          "text": "Worauf muss ich achten wenn ich eine Praxis besuche?"
+          "text": "Darf ich noch in eine Praxis?"
+        },
+        {
+          "text": "Darf man noch zum Arzt?"
+        },
+        {
+          "text": "Was muss ich beachten wenn ich eine Arztpraxis beachten?"
+        },
+        {
+          "text": "Was muss ich beachten wenn ich zum Arzt gehe?"
         }
       ]
     },
@@ -2001,16 +2214,13 @@
       "intent": "diagnostik_risiko_vorerkrankung_positiv",
       "examples": [
         {
-          "text": "Ich habe eine Nierenerkrankung"
-        },
-        {
-          "text": "Ich habe eine Lebererkrankung"
-        },
-        {
-          "text": "Bin ich Teil einer Risikogruppe?"
+          "text": "Ich habe Diabetes"
         },
         {
           "text": "Hab ich eine Vorerkrankung?"
+        },
+        {
+          "text": "Bin ich Teil einer Risikogruppe?"
         },
         {
           "text": "Ich wurde vor kurzem operiert"
@@ -2022,6 +2232,30 @@
           "text": "Ich habe schlechte Leber Werte"
         },
         {
+          "text": "Ich habe eine Nierenerkrankung"
+        },
+        {
+          "text": "Ich habe eine Lebererkrankung"
+        },
+        {
+          "text": "Ich habe Krebs"
+        },
+        {
+          "text": "Ich rauche regelmäßig"
+        },
+        {
+          "text": "Ich rauche seit 40 Jahren"
+        },
+        {
+          "text": "Ich habe Herzkreislauferkrankungen"
+        },
+        {
+          "text": "Ich habe erhöhten Blutdruck"
+        },
+        {
+          "text": "Ich habe ein schwaches Immunsystem"
+        },
+        {
           "text": "Ich bin Lungenkrank"
         },
         {
@@ -2029,27 +2263,6 @@
         },
         {
           "text": "Ich habe chronischen Atemwegserkrankungen"
-        },
-        {
-          "text": "Ich habe Diabetes"
-        },
-        {
-          "text": "Ich habe ein schwaches Immunsystem"
-        },
-        {
-          "text": "Ich habe erhöhten Blutdruck"
-        },
-        {
-          "text": "Ich habe Herzkreislauferkrankungen"
-        },
-        {
-          "text": "Ich rauche seit 40 Jahren"
-        },
-        {
-          "text": "Ich rauche regelmäßig"
-        },
-        {
-          "text": "Ich habe Krebs"
         }
       ],
       "description": ""
@@ -2058,25 +2271,25 @@
       "intent": "kontakt_allgemein_bestaetigt_erkrankt",
       "examples": [
         {
-          "text": "Wo finde ich euren Kontakt?"
-        },
-        {
-          "text": "Telefonnummer"
-        },
-        {
           "text": "gebt mir eure anschrift"
         },
         {
           "text": "wo kann ich eure kontaktdaten finden?"
         },
         {
-          "text": "Wie kann ich mich mit euch in Verbindung setzen?"
+          "text": "Telefonnummer"
         },
         {
           "text": "ich suche die Kontaktdaten"
         },
         {
+          "text": "Wie kann ich mich mit euch in Verbindung setzen?"
+        },
+        {
           "text": "Wie kann ich mit euch kommunizieren?"
+        },
+        {
+          "text": "Wo finde ich euren Kontakt?"
         },
         {
           "text": "Ich würde euch gerne kontaktieren"
@@ -2099,16 +2312,34 @@
       ]
     },
     {
+      "intent": "informationen_virus_praevention_desinfektion",
+      "examples": [
+        {
+          "text": "Muss ich meine Wohnung desinfizieren?"
+        },
+        {
+          "text": "Wie muss man desinfizieren"
+        },
+        {
+          "text": "Was muss desinfiziert werden?"
+        },
+        {
+          "text": "Muss ich Oberflächen desinfizieren"
+        },
+        {
+          "text": "Oberflächen desinfizieren"
+        }
+      ],
+      "description": ""
+    },
+    {
       "intent": "chatbotkommunikation_kommunikation_bot_sonstiges",
       "examples": [
         {
-          "text": "Sehr geil"
+          "text": "geil"
         },
         {
-          "text": "Gute Sache."
-        },
-        {
-          "text": "Haha"
+          "text": "Cool"
         },
         {
           "text": "Das ist witzig."
@@ -2117,13 +2348,16 @@
           "text": "Funny"
         },
         {
-          "text": "Cool"
-        },
-        {
-          "text": "geil"
+          "text": "Sehr geil"
         },
         {
           "text": "Nice"
+        },
+        {
+          "text": "Haha"
+        },
+        {
+          "text": "Gute Sache."
         }
       ],
       "description": "Chatbot_sonstiges"
@@ -2132,31 +2366,31 @@
       "intent": "informationen_infrastruktur_nahverkehr_allgemein",
       "examples": [
         {
-          "text": "Fährt die Bahn noch?"
-        },
-        {
-          "text": "Ich muss mit der Bahn fahren"
+          "text": "Kann ich noch mit der Bahn fahren?"
         },
         {
           "text": "Fährt die Deutsche Bahn noch?"
         },
         {
-          "text": "Fahren Busse noch?"
-        },
-        {
-          "text": "Kann ich noch mit der Bahn fahren?"
-        },
-        {
-          "text": "Fahren Straßenbahnen noch?"
-        },
-        {
-          "text": "Fahren Busse und Bahnen noch?"
+          "text": "Ich möchte Busfahren"
         },
         {
           "text": "Kann ich noch Bus oder Bahn fahren?"
         },
         {
-          "text": "Ich möchte Busfahren"
+          "text": "Fahren Straßenbahnen noch?"
+        },
+        {
+          "text": "Ich muss mit der Bahn fahren"
+        },
+        {
+          "text": "Fährt die Bahn noch?"
+        },
+        {
+          "text": "Fahren Busse und Bahnen noch?"
+        },
+        {
+          "text": "Fahren Busse noch?"
         }
       ]
     },
@@ -2164,19 +2398,61 @@
       "intent": "informationen_virus_info_ansteckung",
       "examples": [
         {
-          "text": "Welche Ansteckungsmöglichkeiten existieren?"
+          "text": "Können Viren auf Essen überleben?"
+        },
+        {
+          "text": "Wie wird das Virus übertragen?"
+        },
+        {
+          "text": "Warum sollte man keine Hände schütteln?"
+        },
+        {
+          "text": "Corona ist sehr ansteckend"
+        },
+        {
+          "text": "Warum ist Corona so stark ansteckend?"
+        },
+        {
+          "text": "Warum ist Covid19 so infektiös?"
+        },
+        {
+          "text": "Wie ansteckend ist corona?"
+        },
+        {
+          "text": "Was kann mich infizieren?"
+        },
+        {
+          "text": "Was kann mich anstecken?"
+        },
+        {
+          "text": "Wer ist ansteckend?"
+        },
+        {
+          "text": "Welche Übertragungswege existieren?"
+        },
+        {
+          "text": "Womit kann ich mich anstecken?"
+        },
+        {
+          "text": "Wodurch entsteht eine Infektion?"
+        },
+        {
+          "text": "Wie entsteht die Infektion?"
+        },
+        {
+          "text": "Wie kann ich mich anstecken?"
+        },
+        {
+          "text": "Wie stecke ich mich an?"
+        },
+        {
+          "text": "Was ist Tröpfcheninfektion?"
         },
         {
           "text": "Kann das Virus über die Haut übertragen werden"
         },
         {
-          "text": "Kann sich das Virus bei warmen Temperaturen weiter verbreiten?"
-        },
-        {
           "text": "Überlebt der Virus auf Oberflächen?"
-        },
-        {
-          "text": "Warum sollte man keine Hände schütteln?"
         },
         {
           "text": "Wie ist Sars-Cov2 übertragbar?"
@@ -2185,88 +2461,19 @@
           "text": "Wie lange ist das Virus auf Gegenständen übertragbar?"
         },
         {
+          "text": "Welche Ansteckungsmöglichkeiten existieren?"
+        },
+        {
           "text": "Ist Schmierinfektion ein Übertragungsweg?"
         },
         {
           "text": "Kann der Coronavirus über die Luft übertragen werden?"
-        },
-        {
-          "text": "Können Viren auf Essen überleben?"
-        },
-        {
-          "text": "Wie wird das Virus übertragen?"
-        },
-        {
-          "text": "Was ist Tröpfcheninfektion?"
-        },
-        {
-          "text": "Bleibt der Virus in der kleidung ?"
-        },
-        {
-          "text": "Wie stecke ich mich an?"
-        },
-        {
-          "text": "Wie kann ich mich anstecken?"
-        },
-        {
-          "text": "Wie entsteht die Infektion?"
-        },
-        {
-          "text": "Wodurch entsteht eine Infektion?"
-        },
-        {
-          "text": "Womit kann ich mich anstecken?"
-        },
-        {
-          "text": "Welche Übertragungswege existieren?"
-        },
-        {
-          "text": "Wer ist ansteckend?"
-        },
-        {
-          "text": "Was kann mich anstecken?"
-        },
-        {
-          "text": "Was kann mich infizieren?"
-        },
-        {
-          "text": "Helfen Atemmasken?"
-        },
-        {
-          "text": "Kann ich mich mit einer Atemmaske vor dem Virus schützen?"
-        },
-        {
-          "text": "Kann ich andere mit einer Atemmaske vor dem Virus schützen?"
-        },
-        {
-          "text": "Wie lange bin ich ansteckend?"
-        },
-        {
-          "text": "Bin ich schon ansteckend wenn ich keine Symptome habe?"
-        },
-        {
-          "text": "Bin ich noch ansteckend wenn ich keine Symptome mehr habe?"
-        },
-        {
-          "text": "Wie ansteckend ist corona?"
-        },
-        {
-          "text": "Warum ist Covid19 so infektiös?"
-        },
-        {
-          "text": "Warum ist Corona so stark ansteckend?"
-        },
-        {
-          "text": "Corona ist sehr ansteckend"
         }
       ]
     },
     {
       "intent": "informationen_infrastruktur_einkauf_allgemein_toilettenpapier",
       "examples": [
-        {
-          "text": "Ausreichend Klopapier?"
-        },
         {
           "text": "Klopapier"
         },
@@ -2284,6 +2491,9 @@
         },
         {
           "text": "Gibt es genug Klopapier?"
+        },
+        {
+          "text": "Ausreichend Klopapier?"
         }
       ],
       "description": "Versorgung Klopapier"
@@ -2292,28 +2502,28 @@
       "intent": "diagnostik_risiko_reise_ausland",
       "examples": [
         {
-          "text": "Ich komme aus Italien."
+          "text": "Ich komme aus dem Ausland"
+        },
+        {
+          "text": "Ich war im Urlaub"
+        },
+        {
+          "text": "Ich war im Urlaub in Ägypten"
         },
         {
           "text": "Meine Reisegruppe hat Corona."
+        },
+        {
+          "text": "Ich lebe sonst in Frankreich."
+        },
+        {
+          "text": "Ich komme aus Italien."
         },
         {
           "text": "Ich war letzte Woche Skifahren"
         },
         {
           "text": "Ich komme gerade aus China zurück."
-        },
-        {
-          "text": "Ich lebe sonst in Frankreich."
-        },
-        {
-          "text": "Ich war im Urlaub in Ägypten"
-        },
-        {
-          "text": "Ich war im Urlaub"
-        },
-        {
-          "text": "Ich komme aus dem Ausland"
         }
       ]
     },
@@ -2324,15 +2534,6 @@
           "text": "Was mache ich wenn ich ein Verdachtsfall bin?"
         },
         {
-          "text": "Was muss ich tun, wenn ich ein Corona-Verdachtsfall bin bzw. eine bestaetigte Corona-Infizierung habe?"
-        },
-        {
-          "text": "Ich glaube ich hab Corona"
-        },
-        {
-          "text": "Bin ich infiziert?"
-        },
-        {
           "text": "Was soll ich tun, wenn ich kontakt zu einem infizierten hatte?"
         },
         {
@@ -2340,18 +2541,21 @@
         },
         {
           "text": "Was sollte ich tun, wenn ich den Verdacht habe, mich angesteckt zu haben?"
+        },
+        {
+          "text": "Was muss ich tun, wenn ich ein Corona-Verdachtsfall bin bzw. eine bestaetigte Corona-Infizierung habe?"
+        },
+        {
+          "text": "Bin ich infiziert?"
+        },
+        {
+          "text": "Ich glaube ich hab Corona"
         }
       ]
     },
     {
       "intent": "informationen_politisch_massnahmen_prognose",
       "examples": [
-        {
-          "text": "Welche Einschränkungen stehen uns bevor?"
-        },
-        {
-          "text": "Was macht die Regierung als nächstes?"
-        },
         {
           "text": "Welche Maßnahmen kommen als nächstes?"
         },
@@ -2360,6 +2564,12 @@
         },
         {
           "text": "Welche Maßnahmen stehen uns bevor?"
+        },
+        {
+          "text": "Welche Einschränkungen stehen uns bevor?"
+        },
+        {
+          "text": "Was macht die Regierung als nächstes?"
         }
       ]
     },
@@ -2376,40 +2586,40 @@
       "intent": "MenschenSprechen",
       "examples": [
         {
-          "text": "Ich möchte mit einem Menschen sprechen."
-        },
-        {
-          "text": "Mit wem kann ich sprechen?"
-        },
-        {
-          "text": "Verbinde mich mit einem Menschen"
-        },
-        {
-          "text": "Mensch telefonieren"
-        },
-        {
-          "text": "Wo kann ich anrufen?"
-        },
-        {
-          "text": "Mit wem kann ich reden?"
-        },
-        {
-          "text": "Wen kann ich kontaktieren?"
+          "text": "Ich brauche persönliche Beratung"
         },
         {
           "text": "Wo kann ich mich beraten lassen"
         },
         {
-          "text": "Ich brauche persönliche Beratung"
+          "text": "Wen kann ich kontaktieren?"
+        },
+        {
+          "text": "Mit wem kann ich reden?"
+        },
+        {
+          "text": "Wo kann ich anrufen?"
         },
         {
           "text": "Mit welcher Person kann ich sprechen?"
+        },
+        {
+          "text": "Mit wem kann ich sprechen?"
+        },
+        {
+          "text": "Ich möchte mit einem Menschen sprechen."
         },
         {
           "text": "Wie erreiche ich eine Person."
         },
         {
           "text": "Telefonnummer Mensch"
+        },
+        {
+          "text": "Mensch telefonieren"
+        },
+        {
+          "text": "Verbinde mich mit einem Menschen"
         }
       ],
       "description": "Ich möchte mit einem Menschen sprechen."
@@ -2418,25 +2628,16 @@
       "intent": "informationen_infrastruktur_quarantaene_allgemein",
       "examples": [
         {
-          "text": "Wer überprüft wie es den Kontaktpersonen geht"
-        },
-        {
-          "text": "Was müssen Kontaktpersonen beachten?"
-        },
-        {
-          "text": "Wie organisieren sich Betroffene zuhause?"
-        },
-        {
-          "text": "Wer kümmert sich um alltägliche Einkäufe?"
-        },
-        {
           "text": "Was passiert, wenn ich mich nicht an die Quarantäne halte?"
+        },
+        {
+          "text": "Was mach ich wenn ich nicht mehr raus soll?"
         },
         {
           "text": "Gibt es eine Entschädigung für Verdienstausfälle?"
         },
         {
-          "text": "Was mach ich wenn ich nicht mehr raus soll?"
+          "text": "Wer überprüft wie es den Kontaktpersonen geht"
         },
         {
           "text": "Warum 14 Tage?"
@@ -2451,7 +2652,19 @@
           "text": "Wer beendet meine Quarantäne?"
         },
         {
+          "text": "Inkubationszeit"
+        },
+        {
           "text": "quarantaene"
+        },
+        {
+          "text": "Wer kümmert sich um alltägliche Einkäufe?"
+        },
+        {
+          "text": "Wie organisieren sich Betroffene zuhause?"
+        },
+        {
+          "text": "Was müssen Kontaktpersonen beachten?"
         }
       ]
     }
@@ -2489,7 +2702,52 @@
       "values": [
         {
           "type": "synonyms",
-          "value": "Saffig",
+          "value": "Sacka",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Wriezen OT Altwriezen",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Wrisse",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Wrist",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Wrixum",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Wrohe",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Wrohm",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "WT-Tiengen",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Wulfen",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Wulfenau",
           "synonyms": []
         },
         {
@@ -18125,11 +18383,6 @@
         },
         {
           "type": "synonyms",
-          "value": "Einen",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
           "value": "Einharding",
           "synonyms": []
         },
@@ -32041,11 +32294,6 @@
         {
           "type": "synonyms",
           "value": "Hussenhofen",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Hüsten",
           "synonyms": []
         },
         {
@@ -57167,12 +57415,12 @@
         },
         {
           "type": "synonyms",
-          "value": "Sacka",
+          "value": "Saerbeck",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "Saerbeck",
+          "value": "Saffig",
           "synonyms": []
         },
         {
@@ -72667,51 +72915,6 @@
           "type": "synonyms",
           "value": "Wriezen",
           "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Wriezen OT Altwriezen",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Wrisse",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Wrist",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Wrixum",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Wrohe",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Wrohm",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "WT-Tiengen",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Wulfen",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Wulfenau",
-          "synonyms": []
         }
       ],
       "fuzzy_match": false
@@ -72721,9 +72924,9 @@
       "values": [
         {
           "type": "synonyms",
-          "value": "Wohngemeinschaft",
+          "value": "Alleine",
           "synonyms": [
-            "WG"
+            "Eigene Wohnung"
           ]
         },
         {
@@ -72743,9 +72946,9 @@
         },
         {
           "type": "synonyms",
-          "value": "Alleine",
+          "value": "Wohngemeinschaft",
           "synonyms": [
-            "Eigene Wohnung"
+            "WG"
           ]
         },
         {
@@ -72783,18 +72986,6 @@
         },
         {
           "type": "synonyms",
-          "value": "Immunschwäche",
-          "synonyms": [
-            "AIDS",
-            "HIV",
-            "Leukämie",
-            "Blutkrebs",
-            "Immundefizienz",
-            "Immunsupprimierung"
-          ]
-        },
-        {
-          "type": "synonyms",
           "value": "Chronische Infektion",
           "synonyms": [
             "HIV",
@@ -72812,15 +73003,22 @@
         },
         {
           "type": "synonyms",
-          "value": "Asthma",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
           "value": "Fettsucht",
           "synonyms": [
             "Übergewicht",
             "Adipositas"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Immunschwäche",
+          "synonyms": [
+            "AIDS",
+            "HIV",
+            "Leukämie",
+            "Blutkrebs",
+            "Immundefizienz",
+            "Immunsupprimierung"
           ]
         },
         {
@@ -72830,47 +73028,17 @@
             "Chronisch Obstruktive Lungenerkrankung",
             "COPD"
           ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Asthma",
+          "synonyms": []
         }
       ]
     },
     {
       "entity": "Bundesland",
       "values": [
-        {
-          "type": "synonyms",
-          "value": "Rheinland-Pfalz",
-          "synonyms": [
-            "RP"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Nordrhein-Westfalen",
-          "synonyms": [
-            "NRW",
-            "Nordrhein Westfalen"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Sachsen",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Hessen",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Hamburg",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Schleswig Holstein",
-          "synonyms": []
-        },
         {
           "type": "synonyms",
           "value": "Niedersachsen",
@@ -72890,6 +73058,32 @@
           "type": "synonyms",
           "value": "München",
           "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sachsen",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sachsen-Anhalt",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Baden-Württemberg",
+          "synonyms": [
+            "Bawü",
+            "Ba-Wü"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Nordrhein-Westfalen",
+          "synonyms": [
+            "NRW",
+            "Nordrhein Westfalen"
+          ]
         },
         {
           "type": "synonyms",
@@ -72922,15 +73116,24 @@
         },
         {
           "type": "synonyms",
-          "value": "Baden-Württemberg",
+          "value": "Rheinland-Pfalz",
           "synonyms": [
-            "Bawü",
-            "Ba-Wü"
+            "RP"
           ]
         },
         {
           "type": "synonyms",
-          "value": "Sachsen-Anhalt",
+          "value": "Hessen",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hamburg",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Schleswig Holstein",
           "synonyms": []
         },
         {
@@ -72946,17 +73149,17 @@
       "values": [
         {
           "type": "synonyms",
-          "value": "Freunde",
-          "synonyms": [
-            "Freundinnen"
-          ]
-        },
-        {
-          "type": "synonyms",
           "value": "Infizierter Person",
           "synonyms": [
             "Positiv getestete Person",
             "Corona Positive Person"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Freunde",
+          "synonyms": [
+            "Freundinnen"
           ]
         }
       ]
@@ -72990,32 +73193,10 @@
       "values": [
         {
           "type": "synonyms",
-          "value": "Liebe",
+          "value": "Geschlecht",
           "synonyms": [
-            "Mögen",
-            "mag"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Hass",
-          "synonyms": [
-            "doof",
-            "hasse"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Farbe",
-          "synonyms": [
-            "Lieblingsfarbe"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Herkunft",
-          "synonyms": [
-            "Geburtsort"
+            "Mann",
+            "Frau"
           ]
         },
         {
@@ -73028,10 +73209,25 @@
         },
         {
           "type": "synonyms",
-          "value": "Essen",
+          "value": "Liebe",
           "synonyms": [
-            "Lieblingsessen",
-            "isst"
+            "Mögen",
+            "mag"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Herkunft",
+          "synonyms": [
+            "Geburtsort"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Hass",
+          "synonyms": [
+            "doof",
+            "hasse"
           ]
         },
         {
@@ -73043,10 +73239,17 @@
         },
         {
           "type": "synonyms",
-          "value": "Geschlecht",
+          "value": "Essen",
           "synonyms": [
-            "Mann",
-            "Frau"
+            "Lieblingsessen",
+            "isst"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Farbe",
+          "synonyms": [
+            "Lieblingsfarbe"
           ]
         },
         {
@@ -73091,11 +73294,81 @@
       "values": [
         {
           "type": "synonyms",
-          "value": "Fieber",
+          "value": "Fieber über 3",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "nicht mehr atmen",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Appetitverlust",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "atemnot",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Husten",
           "synonyms": [
-            "Subfibril",
-            "Fibril",
-            "erhöhte Temperatur"
+            "Tussis"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Schnupfen",
+          "synonyms": [
+            "Rhinitis",
+            "Laufende Nase"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Schüttelfrost",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Schluckbeschwerden",
+          "synonyms": [
+            "Schluckstörung",
+            "Halsschmerzen"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Schwitzen",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Halsschmerzen",
+          "synonyms": [
+            "Kratziger Hals"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ich möchte mich umbringen",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "akute Atemnot",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Schwächegefühl",
+          "synonyms": [
+            "Abgeschlagenheit",
+            "Müdigkeit",
+            "Schlappheit"
           ]
         },
         {
@@ -73126,11 +73399,6 @@
         },
         {
           "type": "synonyms",
-          "value": "Appetitverlust",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
           "value": "Durchfall",
           "synonyms": [
             "Diarrhoe"
@@ -73138,60 +73406,79 @@
         },
         {
           "type": "synonyms",
-          "value": "Schwitzen",
+          "value": "keine Luft",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "Schluckbeschwerden",
-          "synonyms": [
-            "Schluckstörung",
-            "Halsschmerzen"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Schüttelfrost",
+          "value": "Ich will mich umbringen",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "Schwächegefühl",
+          "value": "seit mehreren Tagen enorm schlecht",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "tut alles weh",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hals kratzt",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "schmecke nichts",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Corona",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Fieber",
           "synonyms": [
-            "Abgeschlagenheit",
-            "Müdigkeit",
-            "Schlappheit"
+            "Subfibril",
+            "Fibril",
+            "erhöhte Temperatur"
           ]
         },
         {
           "type": "synonyms",
-          "value": "Halsschmerzen",
+          "value": "rieche nichts",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Grippe",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Notfall",
           "synonyms": [
-            "Kratziger Hals"
+            "Luftnot",
+            "Atemnot",
+            "Kurzatmigkeit",
+            "Todesangst",
+            "Lebensgefahr",
+            "Herzinfarkt",
+            "Schlaganfall",
+            "Bewusstlosigkeit",
+            "bewusstlos",
+            "Dyspnoe",
+            "keine Luft"
           ]
         },
         {
           "type": "synonyms",
-          "value": "Schnupfen",
-          "synonyms": [
-            "Rhinitis",
-            "Laufende Nase"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Husten",
-          "synonyms": [
-            "Tussis"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Kopfschmerzen",
-          "synonyms": [
-            "Cephalgie",
-            "Kopfweh"
-          ]
+          "value": "Niesen",
+          "synonyms": []
         },
         {
           "type": "synonyms",
@@ -73202,38 +73489,11 @@
         },
         {
           "type": "synonyms",
-          "value": "Niesen",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Grippe",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "rieche nichts",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Corona",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "schmecke nichts",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Hals kratzt",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "tut alles weh",
-          "synonyms": []
+          "value": "Kopfschmerzen",
+          "synonyms": [
+            "Cephalgie",
+            "Kopfweh"
+          ]
         }
       ]
     },
@@ -73247,29 +73507,6 @@
         },
         {
           "type": "synonyms",
-          "value": "Todeszahl",
-          "synonyms": [
-            "case-fatality rate",
-            "Fall-Verstorbenen-Anteil",
-            "Letalität",
-            "Todesrate"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Altersmedian",
-          "synonyms": [
-            "Altersverteilung",
-            "Durchschnittsalter"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Inkubationszeit",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
           "value": "Anteil Beatmung",
           "synonyms": [
             "Intensivstation",
@@ -73278,34 +73515,9 @@
         },
         {
           "type": "synonyms",
-          "value": "Erkankungszahl",
+          "value": "Untererfassung",
           "synonyms": [
-            "Erkrankungen",
-            "Anzahl Erkrankungen"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Basisreproduktionszahl",
-          "synonyms": [
-            "R0"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Dauer Krankenhausaufenthalt",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Anteil Hospitalisierungen",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Symptomverteilung",
-          "synonyms": [
-            "Symptomhäufigkeit"
+            "Dunkelziffer"
           ]
         },
         {
@@ -73317,9 +73529,57 @@
         },
         {
           "type": "synonyms",
-          "value": "Untererfassung",
+          "value": "Symptomverteilung",
           "synonyms": [
-            "Dunkelziffer"
+            "Symptomhäufigkeit"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Anteil Hospitalisierungen",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Dauer Krankenhausaufenthalt",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Basisreproduktionszahl",
+          "synonyms": [
+            "R0"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Inkubationszeit",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Altersmedian",
+          "synonyms": [
+            "Altersverteilung",
+            "Durchschnittsalter"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Todeszahl",
+          "synonyms": [
+            "case-fatality rate",
+            "Fall-Verstorbenen-Anteil",
+            "Letalität",
+            "Todesrate"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Erkankungszahl",
+          "synonyms": [
+            "Erkrankungen",
+            "Anzahl Erkrankungen"
           ]
         }
       ]
@@ -73347,81 +73607,6 @@
     {
       "entity": "Land",
       "values": [
-        {
-          "type": "synonyms",
-          "value": "Bremen",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Brunei Darussalam",
-          "synonyms": [
-            "Brunei Darussalam"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Bulgaria",
-          "synonyms": [
-            "Bulgarien"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Burkina Faso",
-          "synonyms": [
-            "Burkina Faso"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Cambodia",
-          "synonyms": [
-            "Kambodscha"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Cameroon",
-          "synonyms": [
-            "Kamerun"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Canada",
-          "synonyms": [
-            "Kanada"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Cayman Islands",
-          "synonyms": [
-            "Kaimaninseln"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Chile",
-          "synonyms": [
-            "Chile"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "China",
-          "synonyms": [
-            "China"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Colombia",
-          "synonyms": [
-            "Kolumbien"
-          ]
-        },
         {
           "type": "synonyms",
           "value": "Costa Rica",
@@ -73653,20 +73838,6 @@
           "type": "synonyms",
           "value": "Hessen",
           "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Namibia",
-          "synonyms": [
-            "Namibia"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Nepal",
-          "synonyms": [
-            "Nepal"
-          ]
         },
         {
           "type": "synonyms",
@@ -74228,14 +74399,77 @@
         },
         {
           "type": "synonyms",
-          "value": "Mecklenburg-Vorpommern",
+          "value": "Bremen",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "Mexico",
+          "value": "Brunei Darussalam",
           "synonyms": [
-            "Mexiko"
+            "Brunei Darussalam"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Bulgaria",
+          "synonyms": [
+            "Bulgarien"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Burkina Faso",
+          "synonyms": [
+            "Burkina Faso"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cambodia",
+          "synonyms": [
+            "Kambodscha"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cameroon",
+          "synonyms": [
+            "Kamerun"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Canada",
+          "synonyms": [
+            "Kanada"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cayman Islands",
+          "synonyms": [
+            "Kaimaninseln"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Chile",
+          "synonyms": [
+            "Chile"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "China",
+          "synonyms": [
+            "China"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Colombia",
+          "synonyms": [
+            "Kolumbien"
           ]
         },
         {
@@ -74264,6 +74498,20 @@
           "value": "Morocco",
           "synonyms": [
             "Marokko"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Namibia",
+          "synonyms": [
+            "Namibia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Nepal",
+          "synonyms": [
+            "Nepal"
           ]
         },
         {
@@ -74460,6 +74708,18 @@
           "value": "Martinique",
           "synonyms": [
             "Martinique"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Mecklenburg-Vorpommern",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mexico",
+          "synonyms": [
+            "Mexiko"
           ]
         }
       ],
@@ -74859,11 +75119,7 @@
       "output": {
         "generic": [
           {
-            "values": [
-              {
-                "text": ""
-              }
-            ],
+            "values": [],
             "response_type": "text",
             "selection_policy": "sequential"
           }
@@ -74954,17 +75210,7 @@
       "type": "standard",
       "title": "Ende Loop",
       "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": ""
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
+        "generic": []
       },
       "parent": "node_5_1584873743366",
       "metadata": {
@@ -75507,7 +75753,7 @@
       "output": {
         "generic": [
           {
-            "title": "Haben Sie in der Zeit, in der die Person krank war oder maximal zwei Tage vor Beginn der ersten Symptome (insbesondere Fieber und Husten) in ihrer Nähe befunden?",
+            "title": "Haben Sie sich in der Zeit, in der die Person krank war oder maximal zwei Tage vor Beginn der ersten Symptome (insbesondere Fieber und Husten) in ihrer Nähe befunden?",
             "options": [
               {
                 "label": "Ja",
@@ -75576,7 +75822,7 @@
           {
             "values": [
               {
-                "text": "Sie werden nicht als Kontaktperson eingestuft.\n\nWenn Sie Symptome (insbesondere Fieber und Husten) haben, kurieren Sie sich zu Hause aus und kontaktieren Sie telefonisch einen Arzt, sollte sich ihr Zustand nicht bessern.\n\nSollte ihre Kontaktperson doch noch Symptome entwickeln beginnen sie diese Entscheidungshilfe von vorne"
+                "text": "Sie werden nicht als Kontaktperson eingestuft.\n\nWenn Sie Symptome (insbesondere Fieber und Husten) haben, kurieren Sie sich zu Hause aus und kontaktieren Sie telefonisch einen Arzt, sollte sich ihr Zustand nicht bessern.\n\nSollte eine Person mit der sie Kontakt hatten doch noch Symptome entwickeln beginnen sie diese Entscheidungshilfe von vorne"
               }
             ],
             "response_type": "text",
@@ -75596,6 +75842,24 @@
       "parent": "node_8_1584891687261",
       "conditions": "@Abfrage:Nein",
       "dialog_node": "node_2_1584887652713"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Schade, danke für den Hinweis, ich arbeite kontinuierlich daran die Ergebnisse zu verbessern"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1584899582535",
+      "dialog_node": "response_1_1584902121574"
     },
     {
       "type": "standard",
@@ -75651,6 +75915,67 @@
       },
       "conditions": "@Abfrage:Ja",
       "dialog_node": "node_10_1584885929477"
+    },
+    {
+      "type": "standard",
+      "title": "Negatives Rating",
+      "parent": "node_4_1584898473517",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "query": "<? $searched_text ?>",
+            "action": "FEEDBACK",
+            "feedback": 0,
+            "document_id": "<? $lastDocumentId ?>"
+          },
+          "result_variable": "webhook_result_3"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1584876685584"
+      },
+      "conditions": "@Abfrage:Nein",
+      "dialog_node": "node_7_1584899582535",
+      "previous_sibling": "node_3_1584899372761"
+    },
+    {
+      "type": "standard",
+      "title": "Positives Rating",
+      "parent": "node_4_1584898473517",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "query": " <? $searched_text ?>",
+            "action": "FEEDBACK",
+            "feedback": 1,
+            "document_id": " <? $lastDocumentId ?>"
+          },
+          "result_variable": "webhook_result_2"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1584876685584"
+      },
+      "conditions": "@Abfrage:Ja",
+      "dialog_node": "node_3_1584899372761"
     },
     {
       "type": "response_condition",
@@ -75858,6 +76183,9 @@
         ]
       },
       "parent": "node_1_1584880350354",
+      "context": {
+        "lastDocumentId": "<? $webhook_result_1.response.result.results.get($counter).id ?>"
+      },
       "next_step": {
         "behavior": "jump_to",
         "selector": "body",
@@ -75919,7 +76247,7 @@
       "next_step": {
         "behavior": "jump_to",
         "selector": "body",
-        "dialog_node": "node_2_1584876685584"
+        "dialog_node": "node_4_1584898473517"
       },
       "conditions": "$counter >= $results.size()",
       "dialog_node": "node_1_1584881734985"
@@ -75929,7 +76257,7 @@
       "output": {
         "text": {
           "values": [
-            "Schade, dass ich dir nicht helfen konnte."
+            "Schade, dass ich Ihnen nicht helfen konnte."
           ],
           "selection_policy": "sequential"
         }
@@ -75946,7 +76274,7 @@
           {
             "values": [
               {
-                "text": "Es freut mich das ich dir weiterhelfen konnte!"
+                "text": "Es freut mich, dass ich Ihnen weiterhelfen konnte!"
               }
             ],
             "response_type": "text",
@@ -76468,6 +76796,30 @@
     {
       "type": "response_condition",
       "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Das freut mich! $searched_text id $lastDocumentId"
+              },
+              {
+                "text": "Sehr schön!"
+              },
+              {
+                "text": "Super!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1584899372761",
+      "dialog_node": "response_1_1584901626758"
+    },
+    {
+      "type": "response_condition",
+      "output": {
         "text": {
           "values": [
             "$result.response.result.location"
@@ -76682,7 +77034,7 @@
       "output": {
         "generic": [
           {
-            "title": "Wollen sie einen interaktiven Selbsttest zu ihrem persönlichen Corona Infektionsrisikos durchführen, oder spezielle Informationen zu einem Symptom?",
+            "title": "Wollen sie einen interaktiven Selbsttest zu ihrem persönlichen Corona Infektionsrisiko durchführen, oder spezielle Informationen zu einem Symptom?",
             "options": [
               {
                 "label": "Interaktiver Selbsttest",
@@ -76767,37 +77119,9 @@
         "selector": "body",
         "dialog_node": "node_7_1584885135975"
       },
+      "conditions": "#informationen_virus_praevention_infektionsschutz",
       "dialog_node": "node_9_1584877816317",
       "previous_sibling": "node_4_1584872515107"
-    },
-    {
-      "type": "standard",
-      "title": "LandErkannt",
-      "actions": [
-        {
-          "name": "main_webhook",
-          "type": "webhook",
-          "parameters": {
-            "place": "@Land",
-            "action": "MELDUNGEN"
-          },
-          "result_variable": "webhook_result_1"
-        }
-      ],
-      "metadata": {
-        "_customization": {
-          "mcr": true
-        }
-      },
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "condition",
-        "dialog_node": "node_5_1584816194811"
-      },
-      "conditions": "@Land",
-      "digress_in": "does_not_return",
-      "dialog_node": "node_5_1584873743366",
-      "previous_sibling": "node_7_1584874536871"
     },
     {
       "type": "standard",
@@ -76939,7 +77263,7 @@
           "type": "webhook",
           "parameters": {
             "text": "<? input.text ?>",
-            "action": "NLU_LOCATION"
+            "action": "NLU"
           },
           "result_variable": "result"
         }
@@ -76954,7 +77278,7 @@
         "selector": "condition",
         "dialog_node": "Willkommen"
       },
-      "conditions": "#nlu",
+      "conditions": "false",
       "digress_in": "does_not_return",
       "user_label": "this node is for testing the NLU integration.",
       "dialog_node": "node_5_1584815852677",
@@ -76963,7 +77287,27 @@
     },
     {
       "type": "standard",
-      "dialog_node": "node_10_1584892666447",
+      "title": "Information Virus Info Katastrophe",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oberstes Ziel jetzt – die Ausbreitung des Coronavirus verlangsamen! Breitet sich das neuartige Coronavirus ungehindert aus, erkranken in kurzer Zeit so viele Menschen, dass die Krankenhäuser überfüllt werden und die medizinische Versorgung zusammenbrechen kann. Deshalb zielen derzeit sämtliche Anstrengungen von Regierung, Behörden und des Gesundheitssystems darauf ab, die rasante Zunahme täglicher Neuinfektionen zu verlangsamen.\nDurch Anpassung des Verhaltens – möglichst viel zu Hause bleiben, Fachleute sprechen auch  von \"sozialer Distanzierung\" – können Sie dazu beitragen, dass sich das Virus langsamer verbreitet. Damit leisten Sie Ihren Beitrag, Menschenleben zu retten und auch ältere und Menschen mit Vorerkrankungen zu schützen, die von dem Coronavirus stärker betroffen sind als alle anderen. Darüber hinaus bleibt das Beachten einer guten Hygiene (Richtig Händewaschen, Husten und Niesen) weiterhin von großer Bedeutung."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1584885135975"
+      },
+      "conditions": "#informationen_virus_info_katrastrophe",
+      "dialog_node": "node_6_1584888976532",
       "previous_sibling": "node_5_1584893133513"
     },
     {
@@ -77049,7 +77393,7 @@
     },
     {
       "type": "standard",
-      "title": "Prävention Desinfektion",
+      "title": "Information Virus Prävention Desinfektion",
       "output": {
         "generic": [
           {
@@ -77068,7 +77412,7 @@
         "selector": "body",
         "dialog_node": "node_7_1584885135975"
       },
-      "conditions": "#informationen_virus_praevention_haendewaschen_desinfektion",
+      "conditions": "#informationen_virus_praevention_desinfektion",
       "dialog_node": "node_4_1584887648692",
       "previous_sibling": "node_10_1584888121505"
     },
@@ -77106,7 +77450,7 @@
           {
             "values": [
               {
-                "text": "Aktuell gehen Experten davon aus, dass nach einer Infektion eine Immunität vorliegt. Die Dauer ist jedoch aktuell noch nicht bekannt. Aktuell werden viele Tests entwickelt, um eine Immunität nachzuweisen. Etwa die Hälfte der Menschen, die sich angesteckt haben, bemerkten das gar nicht.\n\nVon denjenigen, die etwas merken, werden laut RKI vier von fünf nur leicht krank. Aktuell besteht die Hoffnung, dass sobald Tests verfügbar sind, sich herausfinden lässt, ob jemand zum Beispiel gefahrlos in der Versorgung von Covid-19-Patienten eingesetzt werden kann."
+                "text": "Aktuell gehen Experten davon aus, dass nach einer Infektion eine Immunität vorliegt. Die Dauer ist jedoch aktuell noch nicht bekannt. Aktuell werden viele Tests entwickelt, um eine Immunität nachzuweisen.\n\nEtwa die Hälfte der Menschen, die sich angesteckt haben, bemerkten das gar nicht. Von denjenigen, die etwas merken, werden laut RKI vier von fünf nur leicht krank. Aktuell besteht die Hoffnung, dass sobald Tests verfügbar sind, sich herausfinden lässt, ob jemand zum Beispiel gefahrlos in der Versorgung von Covid-19-Patienten eingesetzt werden kann."
               }
             ],
             "response_type": "text",
@@ -77273,26 +77617,31 @@
     },
     {
       "type": "standard",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Ich habe festgestellt, dass es sich um einen Notfall handelt. Bitte kontaktieren Sie umgehend den Notarzt unter 112 und geben Sie an, dass es sich vermutlich um eine Covid-19 Infektion handelt!"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
+      "title": "LandErkannt",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "place": "@Land",
+            "action": "MELDUNGEN"
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
       },
       "next_step": {
         "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_7_1584885135975"
+        "selector": "condition",
+        "dialog_node": "node_5_1584816194811"
       },
-      "conditions": "#diagnostik_symptome_beschreibung_notfall",
-      "dialog_node": "node_7_1584874536871",
+      "conditions": "@Land",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1584873743366",
       "previous_sibling": "node_5_1584876333726"
     },
     {
@@ -77556,6 +77905,25 @@
     },
     {
       "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Die Coronavirus-Pandemie schränkt das Leben vieler Menschen ein und treibt viele zum Hamsterkauf. Daher begrenzen viele Supermärkte derzeit die Abgabe von Toilettenpapier pro Kunde, nachdem es in den vergangenen Tagen zu teils panikartig anmutenden Ausverkäufen kam. Wie viel Toilettenpapier Sie tatsächlich benötigen können Sie bei verschiedenen Webseiten berechnen.\nEs gilt auch hier der Grundsatz: Denken Sie an Ihre Mitmenschen."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#informationen_infrastruktur_einkauf_allgemein_toilettenpapier",
+      "dialog_node": "node_4_1584894347861",
+      "previous_sibling": "node_5_1584898049001"
+    },
+    {
+      "type": "standard",
       "title": "Quarantäne durch Gesundheitsamt",
       "output": {
         "generic": [
@@ -77670,7 +78038,7 @@
                 "label": "Händewaschen",
                 "value": {
                   "input": {
-                    "text": "Wie wasche ich richtig meine Hände?"
+                    "text": "Händewaschen"
                   }
                 }
               },
@@ -77698,21 +78066,45 @@
     },
     {
       "type": "standard",
+      "title": "Informationen Virus Info Kleinkinder",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "Die Coronavirus-Pandemie schränkt das Leben vieler Menschen ein und treibt viele zum Hamsterkauf. Daher begrenzen viele Supermärkte derzeit die Abgabe von Toilettenpapier pro Kunde, nachdem es in den vergangenen Tagen zu teils panikartig anmutenden Ausverkäufen kam. Wie viel Toilettenpapier Sie tatsächlich benötigen können Sie bei verschiedenen Webseiten berechnen.\nEs gilt auch hier der Grundsatz: Denken Sie an Ihre Mitmenschen."
+                "text": "Die Auswirkungen auf ungeborene Kinder, sowie Neugeborene und Babies sind noch weitgehend unbekannt. Das CDC hat einige Informationen zum Thema Schwangerschaft und Stillen auf Ihrer Website bereitgestellt: https://www.cdc.gov/breastfeeding/breastfeeding-special-circumstances/maternal-or-infant-illnesses/covid-19-and-breastfeeding.html"
               }
             ],
             "response_type": "text",
             "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Weitere Informationen darüber, was Eltern wissen sollten gibt es auch von der UNICEF: https://www.unicef.org/stories/novel-coronavirus-outbreak-what-parents-should-know"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Grundlegend gilt in allen Bereichen, dass erhöhte Präventivmaßnahmen eingehalten werden sollten.",
+            "options": [
+              {
+                "label": "Gib mir Infos zu den Präventivmaßnahmen.",
+                "value": {
+                  "input": {
+                    "text": "Präventivmaßnahmen"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
           }
         ]
       },
-      "conditions": "#informationen_infrastruktur_einkauf_allgemein_toilettenpapier",
-      "dialog_node": "node_4_1584894347861",
+      "conditions": "#informationen_virus_info_kleinkinder",
+      "dialog_node": "node_5_1584898049001",
       "previous_sibling": "Willkommen"
     },
     {
@@ -77793,27 +78185,20 @@
     },
     {
       "type": "standard",
+      "title": "Online suchen",
       "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Oberstes Ziel jetzt – die Ausbreitung des Coronavirus verlangsamen! Breitet sich das neuartige Coronavirus ungehindert aus, erkranken in kurzer Zeit so viele Menschen, dass die Krankenhäuser überfüllt werden und die medizinische Versorgung zusammenbrechen kann. Deshalb zielen derzeit sämtliche Anstrengungen von Regierung, Behörden und des Gesundheitssystems darauf ab, die rasante Zunahme täglicher Neuinfektionen zu verlangsamen.\nDurch Anpassung des Verhaltens – möglichst viel zu Hause bleiben, Fachleute sprechen auch  von \"sozialer Distanzierung\" – können Sie dazu beitragen, dass sich das Virus langsamer verbreitet. Damit leisten Sie Ihren Beitrag, Menschenleben zu retten und auch ältere und Menschen mit Vorerkrankungen zu schützen, die von dem Coronavirus stärker betroffen sind als alle anderen. Darüber hinaus bleibt das Beachten einer guten Hygiene (Richtig Händewaschen, Husten und Niesen) weiterhin von großer Bedeutung."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
+        "generic": []
+      },
+      "context": {
+        "searched_text": "<? input_text ?>"
       },
       "next_step": {
         "behavior": "jump_to",
         "selector": "body",
-        "dialog_node": "node_7_1584885135975"
+        "dialog_node": "node_10_1584884642919"
       },
-      "conditions": "#informationen_virus_praevention_allgemein",
-      "dialog_node": "node_6_1584888976532",
-      "previous_sibling": "node_10_1584892666447"
+      "dialog_node": "node_7_1584885135975",
+      "previous_sibling": "node_4_1584898473517"
     },
     {
       "type": "standard",
@@ -77956,6 +78341,20 @@
                 "value": {
                   "input": {
                     "text": "Aktuelle Zahlen aus Deutschland"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          },
+          {
+            "title": "Ich kann außerdem einen Selbsttest mit Ihnen durchführen:",
+            "options": [
+              {
+                "label": "Jetzt einen Selbsttest durchführen.",
+                "value": {
+                  "input": {
+                    "text": "Selbsttest durchführen."
                   }
                 }
               }
@@ -78106,29 +78505,34 @@
     },
     {
       "type": "standard",
-      "title": "Online suchen",
+      "title": "Rating",
       "output": {
         "generic": [
           {
-            "values": [
+            "title": "Fandest du dieses Ergebnis hilfreich?",
+            "options": [
               {
-                "text": ""
+                "label": "Ja",
+                "value": {
+                  "input": {
+                    "text": "Ja"
+                  }
+                }
+              },
+              {
+                "label": "Nein",
+                "value": {
+                  "input": {
+                    "text": "Nein"
+                  }
+                }
               }
             ],
-            "response_type": "text",
-            "selection_policy": "sequential"
+            "response_type": "option"
           }
         ]
       },
-      "context": {
-        "searched_text": "<? input_text ?>"
-      },
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_10_1584884642919"
-      },
-      "dialog_node": "node_7_1584885135975",
+      "dialog_node": "node_4_1584898473517",
       "previous_sibling": "node_2_1584876685584"
     },
     {
@@ -78204,7 +78608,7 @@
           {
             "values": [
               {
-                "text": "Das neuartige Coronavirus ist von Mensch zu Mensch übertragbar. Der Hauptübertragungsweg scheint die Tröpfcheninfektion zu sein. Dies kann direkt über die Schleimhäute der Atemwege geschehen oder auch indirekt über Hände, die dann mit Mund- oder Nasenschleimhaut sowie die Augenbindehaut in Kontakt gebracht werden.\nAuch eine Übertragung durch Schmierinfektion über die Hände, die mit der Mund- oder Nasenschleimhaut sowie mit der Augenbindehaut in Kontakt gebracht werden, ist prinzipiell nicht ausgeschlossen.\nWelche Rolle die Schmierinfektion spielt, ist nicht bekannt. Bisher wurden häufig Infektionsketten identifiziert, die am besten durch eine direkte Übertragung, z. B. durch Tröpfchen, erklärbar waren.\nZuletzt wurden die neuartigen Coronaviren auch in Stuhlproben Betroffener gefunden. Ob das neuartige Coronavirus auch über den Stuhl verbreitet werden kann, ist noch nicht abschließend geklärt."
+                "text": "Das neuartige Coronavirus ist von Mensch zu Mensch übertragbar. Der Hauptübertragungsweg scheint die Tröpfcheninfektion zu sein. Dies kann direkt über die Schleimhäute der Atemwege geschehen oder auch indirekt über Hände, die dann mit Mund- oder Nasenschleimhaut sowie die Augenbindehaut in Kontakt gebracht werden.\nAuch eine Übertragung durch Schmierinfektion über die Hände, die mit der Mund- oder Nasenschleimhaut sowie mit der Augenbindehaut in Kontakt gebracht werden, ist prinzipiell nicht ausgeschlossen.\nWelche Rolle die Schmierinfektion spielt, ist nicht bekannt. Bisher wurden häufig Infektionsketten identifiziert, die am besten durch eine direkte Übertragung, z. B. durch Tröpfchen, erklärbar waren.\nDer Virus kann auch Plastik und Kunststoffen bis zu 3  Tagen überleben, auf Papier und Karton nur etwa 24 Stunden."
               }
             ],
             "response_type": "text",
@@ -78474,6 +78878,21 @@
   "counterexamples": [
     {
       "text": "Berlin"
+    },
+    {
+      "text": "Ich habe einen Popel"
+    },
+    {
+      "text": "Ich habe Popel in der Nase!"
+    },
+    {
+      "text": "Wer is Robert Koch?"
+    },
+    {
+      "text": "wer ist robert koch"
+    },
+    {
+      "text": "Wer ist robert koch?"
     },
     {
       "text": "Wie sieht das aus ="

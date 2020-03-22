@@ -2,6 +2,14 @@
 Hier liegen die Exporte aus dem Watson Assistant.
 Der wichtigste Skill ist "chatbot - live". Hier sind alle Intents, Entities und Dialoge gepflegt, mit denen der Bot umgehen kann.
 
+# Ablauf einer Chatbot Anfrage
+
+Bei einer Chatbot Anfrage versucht Watson zunächst die Anfrage in einer der definierten Intents einzuordnen. Dabei klassifiziert Watson die Sicherheit mit der Übereinstimmung in einen Wert von 0 bis 1. 
+Je nach Sicherheit des Bots, wird anschließend im Dialogbaum eine Antwort gesucht. Im Großteil haben wir eine 1:1 Verbindung erstellt, sodass zu jedem Intent eine vordefinierte Antwort geliefert wird. 
+Sollte keine Antwort gefunden werde, wird über einen Webhook versucht Informatione aus der RKI Webseite zu extrahieren und dem Nutzer als Link zu liefern. 
+
+Besonders ist das Flussdiagram von Zeit Online. Hierfür wurd eine Reihe von Kindsknoten im Dialogbaum angelegt. Durch einfache Ja/Nein Fragen kann ein Nutzer eine Einschätzung zu seinem Risiko erhalten. 
+
 # Intents
 
 Ein Intents repräsentiert die Absicht die ein Nutzer mit seiner Frage hat. Hierfür werden eine Reihe von Beispiel Fragen in Watson eingepfelgt und einer übergeordneten Kategorie zugeordnet. Je feingranularer die Kategoiren (Intents) sind, desto spezifischer kann der Chatbot auf einezelen Fragen reagieren. 
@@ -69,14 +77,15 @@ Folgende Intents sind aktuell in Corina implementiert:
 - informationen_virus_praevention_haendewaschen_desinfektion
 - informationen_virus_praevention_impfung
 - informationen_virus_praevention_infektionsschutz
+- informationen_virus_praevention_atemmasken
 - informationen_virus_praevention_medikament
 - informationen_virus_test_ablauf
 - informationen_virus_test_kosten
 - informationen_virus_test_verfuegbarkeit
 - informationen_virus_therapie_behandlung
 - informationen_virus_therapie_praxisbesuch
+- kommunikation_kontakt_menschen
 - kontakt_allgemein_bestaetigt_erkrankt
-- MenschenSprechen
 - nlu
 - Risikoeinschätzung
 

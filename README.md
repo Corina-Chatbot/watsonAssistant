@@ -1,8 +1,8 @@
 # watsonAssistant
 Hier liegen die Exporte aus dem Watson Assistant 
 
-# intents
+# Intents
 
-# dialoge
+# Dialoge
 
-# services
+# Services
